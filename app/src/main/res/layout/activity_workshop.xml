@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Workshop">
+    <Button android:layout_gravity="end" android:id="@+id/back" android:background="@drawable/ic_baseline_close_24" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <TextView android:textSize="18.0sp" android:textColor="#ff61688b" android:id="@id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="77.0dip" android:text="Find a workshop you want to learn" android:fontFamily="@font/nunito_bold" />
+
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/rec" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="120.0dip" />
+        <ImageView android:layout_width="fill_parent" android:layout_height="250.0dip" />
+    </LinearLayout>
+</FrameLayout>

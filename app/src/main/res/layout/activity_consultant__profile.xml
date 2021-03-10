@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Consultant_Profile">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/CardView.Light"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                >
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="12dp">
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:src="@drawable/cdja"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintDimensionRatio="H,16:9"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"/>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/view"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginStart="12dp"
+                        android:elevation="12dp"
+                        app:cardCornerRadius="25dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/circleImage"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/profile_image"
+                            android:scaleType="centerCrop"/>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:id="@+id/name"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+
+                        android:text="Victoria Smith"
+                        android:textColor="#080A26"
+                        android:fontFamily="@font/nunito_semibold"
+                        style="@style/TextAppearance.AppCompat.Title"
+                        android:layout_marginStart="12dp"
+                        app:layout_constraintStart_toEndOf="@+id/view"
+                        app:layout_constraintTop_toTopOf="@+id/view"
+                        app:layout_constraintBottom_toTopOf="@+id/desc"/>
+
+                    <TextView
+                        android:id="@+id/desc"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Work"
+
+                        style="@style/TextAppearance.AppCompat.Body1"
+                        android:fontFamily="@font/nunito"
+                        android:textColor="#080A26"
+                        android:layout_marginStart="12dp"
+                        app:layout_constraintStart_toEndOf="@+id/view"
+                        app:layout_constraintTop_toBottomOf="@+id/name"/>
+
+                    <Button
+                        android:id="@+id/arrowBtn"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginEnd="12dp"
+                        android:background="@drawable/ic_keyboard_arrow_down_black_24dpa"
+                        app:layout_constraintBottom_toBottomOf="@+id/view"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/view" />
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/expandableView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:paddingBottom="12dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        android:visibility="gone"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/desc">
+
+                        <ImageView
+                            android:id="@+id/phoneIcon"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginStart="12dp"
+                            android:layout_marginTop="22dp"
+                            android:src="@drawable/ic_phone_black_24dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/phoneNumber"
+                            style="@style/TextAppearance.AppCompat.Medium"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="32dp"
+                            android:fontFamily="@font/nunito"
+
+                            android:text="(999) 345 32 45"
+                            android:textColor="#000"
+                            app:layout_constraintBottom_toTopOf="@+id/phoneDesc"
+                            app:layout_constraintStart_toEndOf="@id/phoneIcon"
+                            app:layout_constraintTop_toTopOf="@+id/phoneIcon" />
+
+                        <TextView
+                            android:id="@+id/phoneDesc"
+                            style="@style/TextAppearance.AppCompat.Body1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="32dp"
+                            android:fontFamily="@font/nunito"
+                            android:text="Mobile"
+                            android:textColor="#8A000000"
+                            app:layout_constraintBottom_toBottomOf="@+id/phoneIcon"
+                            app:layout_constraintStart_toEndOf="@id/phoneIcon"
+                            app:layout_constraintTop_toBottomOf="@+id/phoneNumber" />
+
+                        <ImageView
+                            android:id="@+id/mailIcon"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginStart="12dp"
+                            android:layout_marginTop="22dp"
+                            android:src="@drawable/ic_mail_black_24dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/phoneIcon" />
+
+                        <TextView
+                            android:id="@+id/mailNumber"
+                            style="@style/TextAppearance.AppCompat.Medium"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="32dp"
+                            android:fontFamily="@font/nunito"
+                            android:text="workemail@gmail.com"
+                            android:textColor="#000"
+                            app:layout_constraintBottom_toTopOf="@+id/mailDesc"
+                            app:layout_constraintStart_toEndOf="@id/mailIcon"
+                            app:layout_constraintTop_toTopOf="@+id/mailIcon" />
+
+                        <TextView
+                            android:id="@+id/mailDesc"
+                            style="@style/TextAppearance.AppCompat.Body1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="32dp"
+                            android:fontFamily="@font/nunito"
+                            android:text="Work"
+                            android:textColor="#8A000000"
+                            app:layout_constraintBottom_toBottomOf="@+id/mailIcon"
+                            app:layout_constraintStart_toEndOf="@id/mailIcon"
+                            app:layout_constraintTop_toBottomOf="@+id/mailNumber" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunito_bold"
+                android:text="Specifications"
+                android:layout_marginStart="8dp"
+                android:textColor="#080A26"
+                android:layout_marginRight="10dp"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/ic_dashboard_black_24dp"
+                style="@style/TextAppearance.AppCompat.Medium"
+                app:layout_constraintTop_toTopOf="@+id/mailIcon"
+                app:layout_constraintStart_toEndOf="@id/mailIcon"
+                app:layout_constraintBottom_toTopOf="@+id/mailDesc"/>
+            <TextView
+                android:id="@+id/specs"
+                android:layout_width="match_parent"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content"
+                android:text="Work"
+                android:layout_marginStart="8dp"
+                android:fontFamily="@font/nunito"
+                android:textColor="#080A26"
+                style="@style/TextAppearance.AppCompat.Body1"
+                app:layout_constraintTop_toBottomOf="@+id/mailNumber"
+                app:layout_constraintStart_toEndOf="@id/mailIcon"
+                app:layout_constraintBottom_toBottomOf="@+id/mailIcon"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunito_bold"
+                android:text="Way To Work"
+                android:layout_marginStart="8dp"
+                android:textColor="#000"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/ic_filter_none_black_24dp"
+                style="@style/TextAppearance.AppCompat.Medium"
+                app:layout_constraintTop_toTopOf="@+id/mailIcon"
+                app:layout_constraintStart_toEndOf="@id/mailIcon"
+                app:layout_constraintBottom_toTopOf="@+id/mailDesc"/>
+            <TextView
+                android:id="@+id/points"
+                android:layout_width="match_parent"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content"
+                android:text="Work"
+                android:layout_marginStart="8dp"
+                android:fontFamily="@font/nunito"
+                android:textColor="#080A26"
+                style="@style/TextAppearance.AppCompat.Body1"
+                app:layout_constraintTop_toBottomOf="@+id/mailNumber"
+                app:layout_constraintStart_toEndOf="@id/mailIcon"
+                app:layout_constraintBottom_toBottomOf="@+id/mailIcon"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_gravity="right"
+                android:onClick="lunch"
+                android:layout_marginRight="20dp"
+                android:textColor="#080A26"
+                android:fontFamily="@font/nunito"
+                android:text="confirm inquiry"
+                android:background="@drawable/aadaf"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

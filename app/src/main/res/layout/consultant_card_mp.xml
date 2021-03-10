@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content"
+    android:layout_margin="5dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="80dp"
+            android:id="@+id/pic"
+            android:background="@drawable/circle"
+            android:padding="3dp"
+            android:layout_marginTop="7dp"
+            android:src="@drawable/ads"
+            android:layout_height="80dp"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="100dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="Yash Mehta"
+            android:id="@+id/name"
+            android:textSize="18dp"
+            android:textColor="#080A26"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/nunito_sans"
+            />
+        <TextView
+            android:layout_width="100dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:id="@+id/sub"
+            android:layout_gravity="center"
+            android:textColor="#4B7392"
+            android:textSize="15dp"
+            android:text="Android Development"
+            android:fontFamily="@font/nunito"
+            />
+    </LinearLayout>
+
+</FrameLayout>

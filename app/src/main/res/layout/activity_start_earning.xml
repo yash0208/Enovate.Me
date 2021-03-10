@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartEarning">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <FrameLayout android:background="@drawable/tittle" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginLeft="-20.0dip" android:layout_marginRight="-20.0dip" app:contentScrim="?colorPrimary" app:expandedTitleGravity="bottom" app:layout_scrollFlags="exitUntilCollapsed|scroll" app:scrimAnimationDuration="300">
+            <TextView android:textSize="20.0dip" android:textStyle="bold" android:textColor="@color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Start Earning"                     android:fontFamily="@font/nunito_bold"
+                />
+            <Button android:layout_gravity="center_vertical" android:onClick="back"  android:id="@id/doadfne" android:background="@drawable/ic_baseline_arrow_back_24a" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="40.0dip" app:layout_constraintBottom_toBottomOf="@id/email" app:layout_constraintEnd_toEndOf="@id/email" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toStartOf="@id/email" app:layout_constraintTop_toTopOf="@id/email" app:layout_constraintVertical_bias="0.45" />
+        </FrameLayout>
+        <FrameLayout android:orientation="horizontal" android:onClick="article" android:background="@drawable/info_back" android:layout_width="fill_parent" android:layout_height="180.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <TextView android:textSize="15.0dip" android:textColor="@color/black" android:id="@+id/name1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="180.0dip" android:text="Add Article" android:fontFamily="@font/open_sans_bold" />
+            <TextView android:textSize="15.0dip" android:textColor="@color/black" android:id="@+id/description1" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="60.0dip" android:layout_marginRight="180.0dip" android:text="Write With Your Skill And Earn." android:fontFamily="@font/montserrat" />
+            <ImageView
+                android:id="@id/image1"
+                android:layout_width="140.0dip"
+                android:layout_height="140.0dip"
+                android:src="@drawable/add_ar"
+                android:layout_gravity="center|right"
+                android:layout_marginTop="-5.0dip"
+                android:layout_marginRight="20.0dip" />
+        </FrameLayout>
+        <FrameLayout android:orientation="horizontal" android:onClick="consultant" android:background="@drawable/info_back" android:layout_width="fill_parent" android:layout_height="180.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginLeft="180.0dip"
+                android:layout_marginTop="20.0dip"
+                android:layout_marginRight="20.0dip"
+                android:fontFamily="@font/open_sans_bold"
+                android:text="Be Consultant"
+                android:textColor="@color/black"
+                android:textSize="15.0dip" />
+
+            <TextView
+                android:layout_width="150.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginLeft="180.0dip"
+                android:layout_marginTop="60.0dip"
+                android:layout_marginRight="20.0dip"
+                android:fontFamily="@font/montserrat"
+                android:text="Consult People On Their Problems And Earn."
+                android:textColor="@color/black"
+                android:textSize="15.0dip" />
+            <ImageView
+                android:id="@id/image1"
+                android:layout_width="140.0dip"
+                android:layout_height="140.0dip"
+                android:src="@drawable/con1"
+                android:layout_gravity="center|left"
+                android:layout_marginTop="-5.0dip"
+                android:layout_marginLeft="20.0dip" />
+        </FrameLayout>
+
+        <FrameLayout android:orientation="horizontal" android:onClick="addw" android:background="@drawable/info_back" android:layout_width="fill_parent" android:layout_height="180.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginTop="20.0dip"
+                android:layout_marginRight="180.0dip"
+                android:fontFamily="@font/open_sans_bold"
+                android:text="Add Workshop"
+                android:textColor="@color/black"
+                android:textSize="15.0dip" />
+
+            <TextView
+                android:layout_width="150.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginTop="60.0dip"
+                android:layout_marginRight="180.0dip"
+                android:fontFamily="@font/montserrat"
+                android:text="Teach Skills In Form Of Workshop And Earn."
+                android:textColor="@color/black"
+                android:textSize="15.0dip" />
+            <ImageView
+                android:id="@id/image1"
+                android:layout_width="140.0dip"
+                android:layout_height="140.0dip"
+                android:src="@drawable/workshop"
+                android:padding="20dp"
+                android:layout_gravity="center|right"
+                android:layout_marginTop="-5.0dip"
+                android:layout_marginRight="20.0dip" />
+        </FrameLayout>
+        <FrameLayout android:orientation="horizontal" android:onClick="cola" android:background="@drawable/info_back" android:layout_width="fill_parent" android:layout_height="180.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginLeft="180.0dip"
+                android:layout_marginTop="20.0dip"
+                android:layout_marginRight="20.0dip"
+                android:fontFamily="@font/open_sans_bold"
+                android:text="Add Collaboration"
+                android:textColor="@color/black"
+                android:textSize="15.0dip" />
+
+            <TextView
+                android:layout_width="150.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginLeft="180.0dip"
+                android:layout_marginTop="60.0dip"
+                android:layout_marginRight="20.0dip"
+                android:fontFamily="@font/montserrat"
+                android:text="Collaborate With Us And Market Yourself."
+                android:textColor="@color/black"
+                android:textSize="15.0dip" />
+            <ImageView
+                android:id="@id/image1"
+                android:layout_width="140.0dip"
+                android:layout_height="140.0dip"
+                android:src="@drawable/cola"
+                android:padding="20dp"
+                android:layout_gravity="center|left"
+                android:layout_marginTop="-5.0dip"
+                android:layout_marginLeft="20.0dip" />
+        </FrameLayout>
+        <FrameLayout android:orientation="horizontal" android:onClick="freelancer" android:background="@drawable/info_back" android:layout_width="fill_parent" android:layout_height="180.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginTop="20.0dip"
+                android:layout_marginRight="180.0dip"
+                android:fontFamily="@font/open_sans_bold"
+                android:text="Work As Freelancer"
+                android:textColor="@color/black"
+                android:textSize="15.0dip" />
+
+            <TextView
+                android:layout_width="150.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginTop="60.0dip"
+                android:layout_marginRight="180.0dip"
+                android:fontFamily="@font/montserrat"
+                android:text="Work Using Your Skill And Earn."
+                android:textColor="@color/black"
+                android:textSize="15.0dip" />
+            <ImageView
+                android:id="@id/image1"
+                android:layout_width="140.0dip"
+                android:layout_height="140.0dip"
+                android:src="@drawable/freelancer11"
+                android:padding="20dp"
+                android:layout_gravity="center|right"
+                android:layout_marginTop="-5.0dip"
+                android:layout_marginRight="20.0dip" />
+        </FrameLayout>
+    </LinearLayout>
+
+</ScrollView>

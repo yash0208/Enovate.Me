@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".frameworks">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <FrameLayout
+            android:id="@id/frameLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="72.0dip"
+            android:layout_marginLeft="-20.0dip"
+            android:layout_marginRight="-20.0dip"
+            android:background="@drawable/tittle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@id/name1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="-4.0dip"
+                android:fontFamily="@font/aladin"
+                android:text="Frameworks"
+                android:textColor="@color/white"
+                android:textSize="22.0dip"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@id/imageView3"
+                android:layout_width="25.0dip"
+                android:onClick="back"
+                android:layout_height="25.0dip"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="30.0dip"
+                android:layout_marginTop="-5.0dip"
+                android:background="@drawable/ic_baseline_arrow_back_24a" />
+        </FrameLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@id/rec"
+            android:layout_width="fill_parent"
+            android:layout_height="700dp"
+            android:layoutAnimation="@anim/lsr"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/frameLayout6"
+            app:layout_constraintVertical_bias="0.0" />
+    </LinearLayout>
+    <com.ismaeldivita.chipnavigation.ChipNavigationBar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:id="@+id/chip"
+        android:background="@color/white"
+        app:cnb_menuResource="@menu/frame_menu" />
+
+    <FrameLayout
+        android:id="@id/frameLayout6"
+        android:layout_width="fill_parent"
+        android:visibility="gone"
+        android:layout_height="150.0dip"
+        app:layout_constraintStart_toStartOf="parent"
+        >
+
+        <TextView
+            android:id="@id/textView18"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-10.0dip"
+            android:layout_marginRight="-10.0dip"
+            android:background="@drawable/rectangle_1792"
+            android:gravity="center"
+            android:text="Get Frameworks Related To Your Subject Of Interest"
+            android:textColor="#ff515c6f"
+            android:fontFamily="@font/montserrat"
+            android:textSize="13.0dip"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/frameLayout" />
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="70.0dip"
+            android:layout_gravity="bottom"
+
+            android:background="@drawable/rectangle_1793"
+            android:foregroundGravity="center"
+            android:orientation="horizontal"
+            app:itemTextColor="#ff515c6f"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView18">
+
+            <TextView
+                android:id="@id/feed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:fontFamily="@font/montserrat"
+
+                android:layout_gravity="start|center"
+                android:layout_marginLeft="30.0dip"
+                android:layout_marginTop="-5.0dip"
+                android:text="Feed"
+                android:textColor="#ffff6969"
+                android:textSize="18.0dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@id/research"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_marginTop="-5.0dip"
+                android:fontFamily="@font/montserrat"
+
+                android:layout_marginRight="10dp"
+                android:text="Fields"
+                android:textColor="#ff515c6f"
+                android:textSize="18.0dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@id/video"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="2"
+                android:layout_gravity="end|center"
+                android:fontFamily="@font/montserrat"
+
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginTop="-5.0dip"
+                android:layout_marginRight="30.0dip"
+                android:text="Premium"
+                android:textColor="#ff515c6f"
+                android:textSize="18.0dip"
+                android:textStyle="bold" />
+        </FrameLayout>
+    </FrameLayout>
+
+
+</FrameLayout>
+
+
+</FrameLayout>

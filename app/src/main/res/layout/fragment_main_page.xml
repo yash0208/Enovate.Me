@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".MainPage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+
+                        android:fontFamily="@font/nunito"
+                        android:gravity="start"
+                        android:text="Hello!"
+                        android:textColor="#080A26"
+                        android:textSize="22dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+
+                        android:fontFamily="@font/nunito_semibold"
+                        android:gravity="start"
+                        android:text="Yash Mehta,"
+                        android:textColor="#080A26"
+                        android:textSize="22dp" />
+                </LinearLayout>
+
+
+                <com.melnykov.fab.FloatingActionButton
+                    android:id="@+id/fab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|right"
+                    android:layout_margin="16dp"
+                    android:padding="-10dp"
+                    android:src="@drawable/aic_search_black_24dp"
+                    fab:fab_colorNormal="@color/white"
+                    fab:fab_colorPressed="@color/white"
+                    fab:fab_colorRipple="@color/black" />
+
+            </FrameLayout>
+            <ViewFlipper
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:id="@+id/viewFlipper"
+                android:autoStart="true"
+                android:layout_height="260dp">
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/imageView1"
+                    android:src="@drawable/mph"
+
+                    app:riv_corner_radius="3dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:riv_border_color="#333333"
+                    app:riv_mutate_background="true"
+                    />
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/imageView2"
+                    android:src="@drawable/mph"
+                    app:riv_corner_radius="3dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:riv_border_color="#333333"
+                    app:riv_mutate_background="true"
+                    />
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/imageView3"
+                    android:src="@drawable/mph"
+                    app:riv_corner_radius="3dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:riv_border_color="#333333"
+                    app:riv_mutate_background="true"
+                    />
+            </ViewFlipper>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/nunito_semibold"
+                android:gravity="start"
+                android:text="You Might Like"
+                android:textColor="#080A26"
+                android:textSize="18dp" />
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/viewFlipper1">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="320dp"
+                        android:layout_height="wrap_content"
+                        app:cardBackgroundColor="#00000000"
+                        android:layout_margin="20dp"
+                        app:cardElevation="8dp">
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:background="@drawable/categories_restaurant_background">
+                            <ImageView
+                                android:layout_width="120dp"
+                                android:layout_height="match_parent"
+
+                                android:id="@+id/wi1"
+                                android:src="@drawable/categories_restaurant_icon"
+                                android:layout_marginLeft="20dp"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:fontFamily="@font/baloo"
+                                android:padding="5dp"
+                                android:id="@+id/wt1"
+                                android:text="Android \nDevelopment"
+                                android:layout_marginRight="5dp"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/white"
+                                android:textSize="20dp" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="By Yash Mehta"
+                                android:layout_alignParentRight="true"
+                                android:id="@+id/wtt1"
+                                                                android:textColor="@color/white"
+                                android:fontFamily="@font/nunito_bold"
+                                android:background="#00000000"
+                                android:padding="20dp"
+                                android:layout_alignParentBottom="true"/>
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="320dp"
+                        android:layout_height="wrap_content"
+                        app:cardBackgroundColor="#00000000"
+                        android:layout_margin="20dp"
+                        app:cardElevation="8dp">
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:background="@drawable/categories_shops_background">
+                            <ImageView
+                                android:layout_width="120dp"
+                                android:id="@+id/wi2"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/categories_car_background"
+                                android:layout_marginLeft="20dp"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:fontFamily="@font/baloo"
+                                android:id="@+id/wt2"
+                                android:padding="5dp"
+                                android:text="Android \nDevelopment"
+                                android:layout_marginRight="5dp"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/white"
+                                android:textSize="20dp" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="By Yash Mehta"
+                                android:id="@+id/wtt2"
+                                android:layout_alignParentRight="true"
+                                android:textColor="@color/white"
+                                android:background="#00000000"
+                                android:padding="20dp"
+                                android:layout_alignParentBottom="true"/>
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="320dp"
+                        android:layout_height="wrap_content"
+                        app:cardBackgroundColor="#00000000"
+                        android:layout_margin="20dp"
+                        app:cardElevation="8dp">
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+
+                            android:layout_height="150dp"
+                            android:background="@drawable/categories_hospitals_background">
+                            <ImageView
+                                android:layout_width="120dp"
+                                android:id="@+id/wi3"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/categories_restaurant_icon"
+                                android:layout_marginLeft="20dp"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/wt3"
+                                android:layout_alignParentRight="true"
+                                android:fontFamily="@font/baloo"
+                                android:padding="5dp"
+                                android:text="Android \nDevelopment"
+                                android:layout_marginRight="5dp"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/white"
+                                android:textSize="20dp" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="By Yash Mehta"
+                                android:id="@+id/wtt3"
+                                android:layout_alignParentRight="true"
+                                android:textColor="@color/white"
+                                android:background="#00000000"
+                                android:padding="20dp"
+                                android:layout_alignParentBottom="true"/>
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+            </HorizontalScrollView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingTop="0dp"
+                android:paddingBottom="0dp">
+
+                <LinearLayout
+                    android:background="#F3F0E7"
+                    android:layout_gravity="center"
+                    android:layout_height="200dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_width="150dp"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:id="@+id/book_pic"
+                        />
+
+                </LinearLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/books"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:visibility="gone"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp">
+
+                <LinearLayout
+                    android:background="#F3F0E7"
+                    android:id="@+id/featured_background"
+                    android:layout_gravity="center"
+                    android:layout_height="250dp"
+                    android:layout_marginBottom="10dp"
+
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="170dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:fontFamily="@font/nunito_bold"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_width="wrap_content"
+                        android:lineHeight="24sp"
+                        android:text="Previous Happiness!"
+                        android:textAllCaps="true"
+                        android:textColor="#353459"
+                        android:textSize="22dp" />
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:textColor="#353459"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/nunito"
+                        android:layout_width="wrap_content"
+                        android:text="Ratings given by old learner with happiness and satisfaction." />
+
+                </LinearLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/most_viewed_recycler"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:id="@+id/student_package"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/nunito_semibold"
+                android:gravity="start"
+                android:text="Find Consultants"
+
+                android:textColor="#080A26"
+                android:textSize="18dp" />
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/consultants"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+        </LinearLayout>
+
+    </ScrollView>
+</FrameLayout>

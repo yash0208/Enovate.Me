@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tpis_Detailed">
+
+    <com.google.android.material.appbar.CollapsingToolbarLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60.0dip"
+        android:layout_marginLeft="-20dp"
+        android:layout_marginRight="-20dp"
+        android:background="@drawable/tittle"
+        app:contentScrim="?colorPrimary"
+        app:expandedTitleGravity="bottom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_scrollFlags="exitUntilCollapsed|scroll"
+        app:scrimAnimationDuration="300">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="-5dp"
+            android:id="@+id/name1"
+            android:fontFamily="@font/nunito_bold"
+            android:text="Tips"
+            android:textColor="@color/white"
+            android:textSize="20.0dip"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@id/doadfne"
+            android:layout_width="30.0dip"
+            android:onClick="back"
+            android:layout_marginTop="-5dp"
+            android:layout_height="30.0dip"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="40.0dip"
+            android:background="@drawable/ic_baseline_arrow_back_24a"
+            app:layout_constraintBottom_toBottomOf="@id/email"
+            app:layout_constraintEnd_toEndOf="@id/email"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@id/email"
+            app:layout_constraintTop_toTopOf="@id/email"
+            app:layout_constraintVertical_bias="0.45" />
+    </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/rec"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp"
+        android:layoutAnimation="@anim/lsr"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.14">
+
+    </androidx.recyclerview.widget.RecyclerView>
+</androidx.constraintlayout.widget.ConstraintLayout>

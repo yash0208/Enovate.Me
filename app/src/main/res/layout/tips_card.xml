@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="180.0dip"
+        android:background="@drawable/info_back"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/name1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/montserrat"
+            android:text="Medical"
+            android:textColor="#09396A"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <TextView android:textSize="15.0dip" android:textColor="@color/black" android:id="@+id/description1" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="100.0dip" android:layout_marginRight="180.0dip" android:text="Here Will Be Some Information About Infozine." android:fontFamily="@font/montserrat" />
+        <ImageView
+            android:id="@id/image1"
+            android:layout_width="140.0dip"
+            android:layout_height="140.0dip"
+            android:layout_gravity="center|right"
+            android:layout_marginTop="-5.0dip"
+            android:layout_marginRight="20.0dip" />
+    </FrameLayout>
+</FrameLayout>

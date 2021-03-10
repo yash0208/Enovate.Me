@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:id="@+id/back"
+        android:background="@drawable/categories_restaurant_background">
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+
+            android:id="@+id/wi1"
+            android:src="@drawable/categories_restaurant_icon"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:fontFamily="@font/baloo"
+            android:padding="5dp"
+            android:id="@+id/wt1"
+            android:text="Android \nDevelopment"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="By Yash Mehta"
+            android:layout_alignParentRight="true"
+            android:id="@+id/wtt1"
+            android:textColor="@color/white"
+            android:fontFamily="@font/nunito_bold"
+            android:background="#00000000"
+            android:padding="20dp"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+</LinearLayout>

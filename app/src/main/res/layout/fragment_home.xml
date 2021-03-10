@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBF1F8"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Home">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:id="@id/contentView"
+        android:background="#EBF1F8"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@id/ik" android:background="#ffffffff"
+
+            android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                app:layout_constraintTop_toTopOf="parent">
+                <ViewFlipper
+                    android:id="@id/viewFlipper"
+                    android:layout_width="fill_parent"
+                    android:layout_height="300.0dip"
+                    android:layout_margin="5dp"
+                    android:layout_marginBottom="60.0dip"
+                    android:padding="5dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/toolbar">
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                        <ImageView
+                            android:id="@+id/t1"
+
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:src="@drawable/mph"
+                            android:layout_marginLeft="0.0dip"
+                            android:layout_marginTop="10.0dip"
+                            app:layout_constraintEnd_toEndOf="parent"/>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                        <ImageView
+                            android:id="@+id/t2"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_marginLeft="-10.0dip" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                        <ImageView
+                            android:id="@+id/t3"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_marginLeft="-10.0dip"
+                            app:layout_constraintEnd_toEndOf="parent"/>
+
+                    </RelativeLayout>
+
+
+
+
+
+
+                </ViewFlipper>
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+
+                        android:layout_height="wrap_content"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        tools:layout_editor_absoluteX="0dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/hea"
+                            android:fontFamily="@font/open_sans_bold"
+                            android:gravity="center"
+                            android:text="Fundamentals"
+                            android:textColor="@color/white"
+
+                            android:textSize="25dp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <HorizontalScrollView
+                            android:layout_width="match_parent"
+                            android:paddingHorizontal="10dp"
+                            android:layout_height="200dp">
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+
+                                    android:orientation="horizontal">
+                                    <FrameLayout android:id="@id/tips" android:background="@drawable/ca" android:layout_width="175dp" android:layout_height="fill_parent" android:layout_margin="10.0dip" android:layout_weight="1.0">
+                                        <ImageView android:layout_gravity="center" android:layout_width="200.0dip" android:layout_height="200.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/tips1" android:padding="50dp" />
+                                        <TextView android:textStyle="bold" android:textColor="#ff4b7392" android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:text="Tips" android:fontFamily="@font/adamina" />
+                                    </FrameLayout>
+                                    <FrameLayout android:layout_marginLeft="-10dp" android:id="@id/framework" android:background="@drawable/ca" android:layout_width="175.0dip" android:layout_height="fill_parent" android:layout_margin="10.0dip" >
+                                        <ImageView android:layout_gravity="center" android:layout_width="150.0dip" android:layout_height="150.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/frame1"
+                                            android:padding="30dp"/>
+                                        <TextView android:textStyle="bold" android:textColor="#ff4b7392" android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:text="Frameworks" android:fontFamily="@font/adamina" />
+                                    </FrameLayout>
+                                    <FrameLayout android:id="@id/idea" android:layout_marginLeft="-10dp" android:layout_marginRight="20dp" android:background="@drawable/ca" android:layout_width="175.0dip" android:layout_height="fill_parent" android:layout_margin="10.0dip" android:layout_weight="1.0">
+                                        <ImageView android:layout_gravity="center" android:layout_width="200.0dip" android:layout_height="200.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/idea1" android:padding="50dp" />
+                                        <TextView android:textStyle="bold" android:textColor="#ff4b7392" android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:text="Your Idea" android:fontFamily="@font/adamina" />
+                                    </FrameLayout>
+                                    <FrameLayout android:id="@+id/top10" android:layout_marginLeft="-10dp" android:layout_marginRight="20dp" android:background="@drawable/ca" android:layout_width="175.0dip" android:layout_height="fill_parent" android:layout_margin="10.0dip" android:layout_weight="1.0">
+                                        <ImageView android:layout_gravity="center" android:layout_width="200.0dip" android:padding="30dp" android:layout_height="200.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/top10" />
+                                        <TextView android:textStyle="bold" android:textColor="#ff4b7392" android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:text="Top 10" android:fontFamily="@font/adamina" />
+                                    </FrameLayout>
+                                </LinearLayout>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Swipe"
+                                    android:visibility="gone"
+                                    android:textColor="#4C84FF"
+                                    android:textStyle="normal"
+                                    android:drawableRight="@drawable/ic_navigate_next_black_24dp1"
+                                    android:fontFamily="@font/montserrat"
+                                    android:layout_gravity="bottom|left"
+                                    />
+                            </FrameLayout>
+
+
+                        </HorizontalScrollView>
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="right"
+                            android:foregroundGravity="center"
+                            android:src="@drawable/swipe"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:id="@+id/im11"
+                            android:layout_margin="5dp"
+                            android:src="@drawable/start_ecomerce_store_og"
+                            android:layout_marginTop="10.0dip"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/textView"
+                            app:layout_constraintTop_toBottomOf="@id/toolbar" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/hea"
+                            android:fontFamily="@font/open_sans_bold"
+                            android:gravity="center"
+                            android:text="Necessity"
+                            android:textColor="@color/white"
+
+                            android:textSize="25dp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                        <HorizontalScrollView
+                            android:layout_width="match_parent"
+                            android:paddingHorizontal="10dp"
+
+                            android:layout_height="200dp">
+                            <FrameLayout
+                                android:layout_width="match_parent"
+
+                                android:layout_height="match_parent">
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
+                                    <FrameLayout android:id="@id/infozine" android:background="@drawable/ca" android:layout_width="175dp" android:layout_height="fill_parent" android:layout_margin="10.0dip" android:layout_weight="1.0">
+                                        <ImageView android:layout_gravity="center" android:layout_width="200.0dip" android:layout_height="200.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/infozine" android:padding="40dp"/>
+                                        <TextView android:textStyle="bold" android:textColor="#ff4b7392" android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:text="Infozine" android:fontFamily="@font/adamina" />
+                                    </FrameLayout>
+                                    <FrameLayout  android:layout_marginLeft="-10dp" android:id="@+id/books1" android:background="@drawable/ca" android:layout_width="175.0dip" android:layout_height="fill_parent" android:layout_margin="10.0dip" >
+                                        <ImageView android:layout_gravity="center" android:layout_width="150.0dip" android:layout_height="150.0dip" android:src="@drawable/bnooks" android:padding="30dp" android:layout_marginBottom="10.0dip"  />
+                                        <TextView android:textStyle="bold" android:textColor="#ff4b7392" android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:text="Books" android:fontFamily="@font/adamina" />
+                                    </FrameLayout>
+
+
+                                </LinearLayout>
+
+                            </FrameLayout>
+
+
+                        </HorizontalScrollView>
+                        <ImageView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:id="@+id/im12"
+                            android:layout_margin="5dp"
+                            android:src="@drawable/opportunity"
+                            android:layout_marginTop="10.0dip"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/textView"
+                            app:layout_constraintTop_toBottomOf="@id/toolbar" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/hea"
+                            android:fontFamily="@font/open_sans_bold"
+                            android:gravity="center"
+                            android:text="Opportunity"
+                            android:textColor="@color/white"
+
+                            android:textSize="25dp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                        <HorizontalScrollView
+                            android:layout_width="match_parent"
+                            android:paddingHorizontal="10dp"
+                            android:layout_height="200dp">
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
+                                    <FrameLayout android:id="@+id/consultancy" android:background="@drawable/ca" android:layout_width="175dp" android:layout_height="fill_parent" android:layout_margin="10.0dip" android:layout_weight="1.0">
+                                        <ImageView android:layout_gravity="center" android:layout_width="200.0dip" android:layout_height="200.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/con12" android:padding="50dp"/>
+                                        <TextView android:textStyle="bold" android:textColor="#ff4b7392" android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:text="Consultancy" android:fontFamily="@font/adamina" />
+                                    </FrameLayout>
+                                    <FrameLayout android:layout_marginLeft="-10dp" android:id="@+id/collaboration" android:background="@drawable/ca" android:layout_width="175.0dip" android:layout_height="fill_parent" android:layout_margin="10.0dip" >
+                                        <ImageView android:padding="20dp" android:layout_gravity="center" android:layout_width="150.0dip" android:layout_height="150.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/colaaa" />
+                                        <TextView android:textStyle="bold" android:textColor="#ff4b7392" android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:text="Collaboration" android:fontFamily="@font/adamina" />
+                                    </FrameLayout>
+
+
+                                </LinearLayout>
+
+                            </FrameLayout>
+
+
+                        </HorizontalScrollView>
+                        <ImageView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                            android:id="@+id/im13"
+
+                            android:layout_margin="5dp"
+                        android:src="@drawable/online_teaching_challenges"
+                        android:layout_marginTop="10.0dip"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/textView"
+                        app:layout_constraintTop_toBottomOf="@id/toolbar" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/hea"
+                            android:fontFamily="@font/open_sans_bold"
+                            android:gravity="center"
+                            android:text="Riddles"
+                            android:textColor="@color/white"
+
+                            android:textSize="25dp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                        <HorizontalScrollView
+                            android:layout_width="match_parent"
+                            android:paddingHorizontal="10dp"
+                            android:layout_height="200dp">
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
+                                    <FrameLayout android:id="@+id/history" android:background="@drawable/ca" android:layout_width="175dp" android:layout_height="fill_parent" android:layout_margin="10.0dip" android:layout_weight="1.0">
+                                        <ImageView android:layout_gravity="center" android:layout_width="200.0dip" android:layout_height="200.0dip" android:padding="50dp" android:layout_marginBottom="10.0dip" android:src="@drawable/historu" />
+                                        <TextView android:textStyle="bold" android:textColor="#ff4b7392" android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:text="History" android:fontFamily="@font/adamina" />
+                                    </FrameLayout>
+                                    <FrameLayout android:layout_marginLeft="-10dp" android:id="@+id/think_outs" android:background="@drawable/ca" android:layout_width="175.0dip" android:layout_height="fill_parent" android:layout_margin="10.0dip" >
+                                        <ImageView android:layout_gravity="center" android:layout_width="200.0dip" android:layout_height="200.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/think11" android:padding="50dp" />
+                                        <TextView android:textStyle="bold" android:textColor="#ff4b7392" android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:text="Think Out" android:fontFamily="@font/adamina" />
+                                    </FrameLayout>
+
+
+                                </LinearLayout>
+
+                            </FrameLayout>
+
+
+                        </HorizontalScrollView>
+                        <ImageView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:layout_margin="5dp"
+                            android:id="@+id/im14"
+
+                            android:src="@drawable/photo_95755_landscape_850x566"
+                            android:layout_marginTop="10.0dip"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/textView"
+                            app:layout_constraintTop_toBottomOf="@id/toolbar" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/hea"
+                            android:fontFamily="@font/open_sans_bold"
+                            android:gravity="center"
+                            android:text="Learn And Earn"
+                            android:textColor="@color/white"
+
+                            android:textSize="25dp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                        <HorizontalScrollView
+                            android:layout_width="match_parent"
+                            android:paddingHorizontal="10dp"
+                            android:layout_height="200dp">
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
+                                    <FrameLayout android:id="@+id/workshop" android:background="@drawable/ca" android:layout_width="175dp" android:layout_height="fill_parent" android:layout_margin="10.0dip" android:layout_weight="1.0">
+                                        <ImageView android:layout_gravity="center" android:layout_width="200.0dip" android:layout_height="200.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/work_shop" />
+                                        <TextView android:textStyle="bold" android:textColor="#ff4b7392" android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:text="Workshop" android:fontFamily="@font/adamina" />
+                                    </FrameLayout>
+                                    <FrameLayout android:layout_marginLeft="-10dp" android:id="@+id/onlien_class" android:visibility="gone" android:background="@drawable/ca" android:layout_width="175.0dip" android:layout_height="fill_parent" android:layout_margin="10.0dip" >
+                                        <ImageView android:layout_gravity="center" android:layout_width="200.0dip" android:layout_height="200.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/online_hacks" />
+                                        <TextView android:textStyle="bold" android:textColor="#ff4b7392" android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:text="Online Hacks" android:fontFamily="@font/adamina" />
+                                    </FrameLayout>
+                                    <FrameLayout android:id="@+id/hire_me1" android:background="@drawable/ca" android:layout_width="175dp" android:layout_height="fill_parent" android:layout_margin="10.0dip" android:layout_weight="1.0">
+                                        <ImageView android:layout_gravity="center" android:layout_width="200.0dip" android:layout_height="200.0dip" android:layout_marginBottom="10.0dip" android:padding="40dp" android:src="@drawable/hire_me_png" />
+                                        <TextView android:textStyle="bold" android:textColor="#ff4b7392" android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:text="Hire Me" android:fontFamily="@font/adamina" />
+                                    </FrameLayout>
+                                    <FrameLayout android:layout_marginLeft="-10dp" android:id="@+id/start_earning" android:background="@drawable/ca" android:layout_width="175.0dip" android:layout_height="fill_parent" android:layout_margin="10.0dip" >
+                                        <ImageView android:layout_gravity="center" android:layout_width="200.0dip" android:layout_height="200.0dip" android:layout_marginBottom="10.0dip" android:padding="40dp" android:src="@drawable/rev" />
+                                        <TextView android:textStyle="bold" android:textColor="#ff4b7392" android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:text="Start Earning" android:fontFamily="@font/adamina" />
+                                    </FrameLayout>
+
+                                </LinearLayout>
+
+                            </FrameLayout>
+
+
+                        </HorizontalScrollView>
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="right"
+                            android:foregroundGravity="center"
+                            android:src="@drawable/swipe"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:id="@+id/join"
+                            android:visibility="gone"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/join_us_1"/>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:id="@+id/container"/>
+                        <TextView
+                            android:textSize="18dp"
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/rate"
+                            android:layout_width="match_parent"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginRight="30dp"
+
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/montserrat"
+
+                            android:gravity="center"
+                            android:text="If you need help just shake your mobile !!"
+                            android:foregroundGravity="center"
+                            android:layout_marginBottom="20dp"
+                            android:textColor="#175CB7"/>
+                    </LinearLayout>
+
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            </LinearLayout>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+
+</FrameLayout>

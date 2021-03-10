@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    tools:context=".AboutUs">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/slider_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
+                android:gravity="center"
+                android:text="What Is 'EN0VATE ME' ?"
+
+                android:textColor="#515C6F"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:paddingEnd="10dp"
+                android:paddingRight="10dp" app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.619"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/slider_image" />
+            <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/img1"/>
+            <TextView
+                android:id="@+id/slider_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingEnd="10dp"
+                android:paddingRight="10dp"
+                android:fontFamily="@font/montserrat"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/first_slide_desc"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/slider_heading" />
+
+
+            <TextView
+                android:id="@+id/slider_headinsg"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
+                android:gravity="center"
+                android:text="This Application Is For"
+
+                android:textColor="#515C6F"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:paddingEnd="10dp"
+                android:paddingRight="10dp" app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.619"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/slider_image" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/img2"/>
+            <TextView
+                android:id="@+id/sliders_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingEnd="10dp"
+                android:paddingRight="10dp"
+                android:fontFamily="@font/montserrat"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/second_slide_desc"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/slider_heading" />
+
+            <TextView
+                android:textSize="18dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:visibility="gone"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat"
+
+                android:gravity="start"
+                android:text="Welcome to our very first, and small, although significant initiative 'Enovate Me' We have designed this application to meet the needs of current market, as well as emerging market. Market here refers to anyone who is willing to gain up to date knowledge regarding their own interested field, and at the same time seeking opportunities for implementing it. "
+                android:textColor="#175CB7"/>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="match_parent"/>
+            <TextView
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+                android:visibility="gone"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/montserrat"
+
+            android:gravity="start"
+            android:text="This application consists of more than 10+ interesting and exciting categories ranging from Business, and management to robotics, and engineering to Arts, and Photography, and cinematography. Our content will be diverse and rich in its sense as content will be provided by those who not only have enormous and practical experience and knowledge of the respective field, but by those also who have gained and learned about the respective field independently. This will deliver our users both tips, and practical knowledge which will have theory knowledge in itself. "
+            android:textColor="#175CB7"/>
+            <TextView
+                android:textSize="18dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:visibility="gone"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat"
+
+                android:gravity="start"
+                android:text="Interactive mediums will be used for delivering the content. Our team will continuasly monitor our users experience, and their needs in terms of how they want to learn and what they want, and according to which our team will be providing the updates to this app."
+                android:textColor="#175CB7"/>
+            <TextView
+                android:textSize="18dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:fontFamily="@font/montserrat"
+
+                android:gravity="start"
+                android:text="This small efforts of ours will prove significant step towards fulfilling our mission, i.e. to enable youths and children to earn by implementing their knowledge and experience they have, while providing them with more rich knowledge, information, stats, and opportunities to and about earning. Also this effort will enable us to spread our vision of making individuals independent in true and modern form."
+                android:layout_marginBottom="20dp"
+                android:textColor="#175CB7"/>
+            <Button
+                android:id="@+id/btn_get_started"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginLeft="28dp"
+                android:textSize="20dp"
+                android:layout_marginEnd="28dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="64dp"
+                android:background="@drawable/btn_gradient_style"
+                android:text="Let's Get Started"
+                android:textColor="#fff"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+            <TextView
+                android:textSize="18dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/rate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat"
+
+                android:gravity="start"
+                android:text="Rate Us!"
+                android:foregroundGravity="center"
+                android:layout_marginBottom="20dp"
+                android:textColor="#175CB7"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+    <!-- TODO: Update blank fragment layout -->
+
+
+</FrameLayout>

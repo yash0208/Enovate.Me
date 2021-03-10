@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Books">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <FrameLayout android:id="@+id/frameLayout" android:background="@drawable/tittle" android:layout_width="fill_parent" android:layout_height="72.0dip" android:layout_marginLeft="-20.0dip" android:layout_marginRight="-20.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/topbar">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="-4.0dip"
+                android:fontFamily="@font/nunito_bold"
+                android:text="Books"
+                android:textColor="@color/white"
+                android:textSize="18.0dip"
+                android:textStyle="bold" />
+            <Button android:layout_gravity="center_vertical" android:id="@+id/imageVie3" android:background="@drawable/ic_baseline_arrow_back_24a" android:onClick="back" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginTop="-5.0dip" android:layout_marginStart="30.0dip" />
+        </FrameLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginTop="10dp"
+            android:textColor="#446884"
+            android:fontFamily="@font/open_sans_bold"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:text="Genres"
+            android:layout_gravity="center"
+            />
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            android:layout_gravity="start"
+            android:layout_height="wrap_content"
+            android:id="@+id/rec1"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            android:textColor="#446884"
+            android:fontFamily="@font/open_sans_bold"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:text="Short Summery"
+            android:layout_gravity="center"
+            />
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="start"
+
+            android:foregroundGravity="right"
+            android:layout_height="wrap_content"
+            android:id="@+id/rec2"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#446884"
+            android:fontFamily="@font/open_sans_bold"
+            android:visibility="gone"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:text="Books We Recommend"
+            android:layout_gravity="center"
+            />
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="start"
+            android:layout_height="wrap_content"
+            android:id="@+id/rec3"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginTop="10dp"
+            android:textColor="#446884"
+            android:fontFamily="@font/open_sans_bold"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:text="Our Unique Published"
+            android:layout_gravity="center"
+            />
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="start"
+            android:layout_height="wrap_content"
+            android:id="@+id/rec4"
+            android:layout_marginLeft="10dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/container"/>
+    </LinearLayout>
+    <com.ismaeldivita.chipnavigation.ChipNavigationBar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:id="@+id/chip"
+        android:background="@color/white"
+        app:cnb_menuResource="@menu/books" />
+</FrameLayout>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/conta"
+        android:background="@drawable/fab_text_bg"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/collab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/open_sans_bold"
+            android:text="Need Help !!"
+            android:layout_gravity="center"
+            android:textColor="#515C6F"
+            android:textSize="25dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/feedback"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:orientation="vertical"
+            android:id="@+id/l1"
+            android:layout_height="100dp">
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="140dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="18dp"
+            android:fontFamily="@font/open_sans_bold"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:text="Send Feedback"
+            />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="05dp"
+                android:layout_marginRight="170dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Send Us Your Review Or Suggestion As Feedback."
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+        </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/kas"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/bug"
+            android:orientation="vertical"
+            android:id="@+id/l2"
+            android:layout_height="100dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="140dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="18dp"
+                android:fontFamily="@font/open_sans_bold"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:text="Report Bug"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="05dp"
+                android:layout_marginRight="170dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Mail Us About The Bug You Feel Which Need To Be Improved."
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/kas"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/l3"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/join_a"
+            android:orientation="vertical"
+            android:layout_marginBottom="2dp"
+            android:layout_height="100dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="140dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="18dp"
+                android:fontFamily="@font/open_sans_bold"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:text="Join Us"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="05dp"
+                android:layout_marginRight="170dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Click Here To Join Us We Will Reach You As Soon As Possible."
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/kas"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/l4"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/l41"
+            android:orientation="vertical"
+            android:layout_marginBottom="2dp"
+            android:layout_height="100dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="140dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="18dp"
+                android:fontFamily="@font/open_sans_bold"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:text="Invite "
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="05dp"
+                android:layout_marginRight="170dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Invite Your Friend Using Link."
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/kas"/>
+
+        <LinearLayout
+            android:id="@+id/l5"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/l5"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="140dp"
+                android:fontFamily="@font/open_sans_bold"
+                android:text="Rate Us"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="05dp"
+                android:layout_marginRight="170dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Rate Us On Play Store Based On Your Experience."
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

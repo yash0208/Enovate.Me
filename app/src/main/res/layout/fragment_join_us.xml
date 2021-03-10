@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    tools:context=".JoinUs">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layoutAnimation="@anim/glide"
+        android:id="@+id/scroll1"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/join1" />
+
+            <TextView
+                android:id="@+id/n11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/open_sans_bold"
+                android:text="Are You A...... ?"
+                android:layout_gravity="center"
+                android:textColor="#1F0D4D"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/y1"
+                    android:layout_width="130dp"
+
+                    android:layout_height="40dp"
+                    android:textSize="20dp"
+                    android:background="@drawable/btn_gradient_style"
+                    android:text="Student"
+
+                    android:textColor="#fff"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <Button
+                    android:id="@+id/n1"
+                    android:layout_width="130dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="50dp"
+
+                    android:textSize="20dp"
+                    android:background="@drawable/btn_gradient_style"
+                    android:text="Learner"
+                    android:textColor="#fff"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginBottom="30dp"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+
+                android:orientation="vertical"
+                android:id="@+id/l1">
+
+                <TextView
+                    android:id="@+id/ssd11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/open_sans_bold"
+                    android:text="That sounds great...."
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#1F0D4D"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/j2"/>
+                <TextView
+                    android:id="@+id/des1"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:text="Do you spent 400-500 a week for snacks or petrol just to chill with your friends ?"
+                    android:textColor="#1F0D4D"
+                    android:fontFamily="@font/open_sans_semibold"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+
+                    android:orientation="horizontal">
+                    <Button
+                        android:id="@+id/y2"
+                        android:layout_width="130dp"
+
+                        android:layout_height="40dp"
+                        android:textSize="20dp"
+                        android:background="@drawable/btn_gradient_style"
+                        android:text="Yes"
+                        android:textColor="#fff"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+                    <Button
+                        android:id="@+id/n2"
+                        android:layout_width="130dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="50dp"
+
+                        android:textSize="20dp"
+                        android:background="@drawable/btn_gradient_style"
+                        android:text="Nope"
+                        android:textColor="#fff"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+                </LinearLayout>
+
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:layout_marginBottom="30dp"
+
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/l2">
+
+            <TextView
+                android:id="@+id/sssd11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/open_sans_bold"
+                android:text="That Means..."
+                android:layout_gravity="start"
+                android:layout_marginLeft="20dp"
+                android:textColor="#1F0D4D"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/s1"/>
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="So your monthly spending is minimum between 2000-3000 right ? "
+                android:textColor="#1F0D4D"
+                android:fontFamily="@font/open_sans_semibold"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/y3"
+                    android:layout_width="130dp"
+
+                    android:layout_height="40dp"
+                    android:textSize="20dp"
+                    android:background="@drawable/btn_gradient_style"
+                    android:text="Yes"
+                    android:textColor="#fff"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <Button
+                    android:id="@+id/n3"
+                    android:layout_width="130dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="50dp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/btn_gradient_style"
+                    android:text="Yeah So..."
+                    android:textSize="20dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+            </LinearLayout>
+        </LinearLayout>
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="match_parent"
+                android:visibility="gone"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="So what if you get some of the best content like frameworks, infozins, case studies with books and also an opportunity to network with people which can help you to apply instantly and can start your exiting journey of building your career in just RS 99 per month  ?"
+                android:textColor="#1F0D4D"
+                android:fontFamily="@font/open_sans_semibold"/>
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/open_sans_bold"
+
+                android:layout_gravity="center"
+                android:textColor="#1F0D4D"
+                android:layout_marginBottom="30dp"
+
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:visibility="gone"
+                android:textColor="@color/white"
+                android:text="Open Pdf"
+                android:id="@+id/open12"
+                android:background="@drawable/btn_gradient_style"/>
+            <WebView
+                android:layout_width="match_parent"
+                android:visibility="gone"
+                android:layout_height="100dp"
+                android:id="@+id/web"/>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

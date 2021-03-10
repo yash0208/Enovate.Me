@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/list"
+        android:title="Top Most List"
+        app:cnb_iconColor="@color/home"/>
+    <item
+        android:id="@+id/idea"
+        android:icon="@drawable/research"
+        android:title="Coming Soon"
+        app:cnb_iconColor="@color/activity"/>
+</menu>

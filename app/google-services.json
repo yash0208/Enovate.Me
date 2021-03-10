@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "947338250644",
+    "firebase_url": "https://enovateme-2b75e.firebaseio.com",
+    "project_id": "enovateme-2b75e",
+    "storage_bucket": "enovateme-2b75e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:947338250644:android:2ad84189d9699f70976781",
+        "android_client_info": {
+          "package_name": "com.enovate.en0vate_me"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "947338250644-4vfvscb345j0vffq5j8fg23mb24bb34m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.enovate.en0vate_me",
+            "certificate_hash": "476056710f1209e42883366be9f75e6aee4c3744"
+          }
+        },
+        {
+          "client_id": "947338250644-nn96ss59ghbn2i695nr6a2f4v433f5li.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6IrLeoliOpwI7zaJIX2mGI0c8N0f9tto"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "947338250644-nn96ss59ghbn2i695nr6a2f4v433f5li.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:947338250644:android:7e43ae20d7239ee3976781",
+        "android_client_info": {
+          "package_name": "com.enovateme.enovateme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "947338250644-489dsjegar663auue6njbnmqi1q6guvu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.enovateme.enovateme",
+            "certificate_hash": "476056710f1209e42883366be9f75e6aee4c3744"
+          }
+        },
+        {
+          "client_id": "947338250644-nn96ss59ghbn2i695nr6a2f4v433f5li.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6IrLeoliOpwI7zaJIX2mGI0c8N0f9tto"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "947338250644-nn96ss59ghbn2i695nr6a2f4v433f5li.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:947338250644:android:12b9f04ad461af9b976781",
+        "android_client_info": {
+          "package_name": "com.rajaryan.enovateme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "947338250644-t1hsoj0njvajsp4e6us028mrsnmnrgob.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rajaryan.enovateme",
+            "certificate_hash": "476056710f1209e42883366be9f75e6aee4c3744"
+          }
+        },
+        {
+          "client_id": "947338250644-nn96ss59ghbn2i695nr6a2f4v433f5li.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6IrLeoliOpwI7zaJIX2mGI0c8N0f9tto"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "947338250644-nn96ss59ghbn2i695nr6a2f4v433f5li.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

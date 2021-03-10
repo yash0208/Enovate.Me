@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    tools:context=".HomeFinal">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="18dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/nunito_bold"
+                android:text="Welcome User,"
+                android:textColor="#ff241332" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:visibility="gone"
+                android:layout_height="wrap_content"
+                android:text="Idea Of The Day !"
+                android:textColor="#ff241332"                android:layout_marginTop="5dp"
+                android:textSize="16dp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/open_sans_bold"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:background="@drawable/ideaaasd">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content">
+                    <de.hdodenhof.circleimageview.CircleImageView android:id="@+id/pic" android:src="@drawable/male_selected" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="00.0dip" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+                        <TextView android:textSize="18.0dip" android:textStyle="bold" android:textColor="#ff241332" android:id="@+id/name1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip"  android:text="Yash Mehta" android:fontFamily="@font/montserrat" />
+                        <TextView android:textColor="#ff352641" android:id="@+id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5dp" android:text="25-07-2020" android:fontFamily="@font/montserrat" />
+                    </LinearLayout>
+                </LinearLayout>
+                <TextView android:textSize="15.0dip" android:textColor="#ff241332" android:id="@+id/idea1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="25.0dip" android:layout_marginBottom="10.0dip" android:text="When one door of happiness closes, another opens, but often we look so long at the closed door that we do not see the one that has been opened for us. " android:fontFamily="@font/montserrat" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="20dp"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/num"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end|bottom|center"
+
+                        android:layout_marginBottom="0.0dip"
+                        android:fontFamily="@font/montserrat"
+                        android:text="145"
+                        android:textColor="#ff241332" />
+                    <Button android:layout_gravity="end|bottom|center" android:id="@+id/comment1" android:background="@drawable/ic_baseline_chat_bubble_outline_24145" android:layout_width="37.0dip" android:layout_height="30.0dip" android:layout_marginLeft="5dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/viewPager"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            <ViewFlipper
+                android:id="@id/viewFlipper"
+                android:layout_width="fill_parent"
+                android:layout_height="300.0dip"
+                android:layout_margin="5dp"
+                android:layout_marginBottom="60.0dip"
+                android:padding="5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/toolbar">
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <ImageView
+                        android:id="@+id/t1"
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:src="@drawable/mph"
+                        android:layout_marginLeft="0.0dip"
+                        android:layout_marginTop="10.0dip"
+                        app:layout_constraintEnd_toEndOf="parent"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <ImageView
+                        android:id="@+id/t2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="-10.0dip" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <ImageView
+                        android:id="@+id/t3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="-10.0dip"
+                        app:layout_constraintEnd_toEndOf="parent"/>
+
+                </RelativeLayout>
+
+
+
+
+
+
+            </ViewFlipper>
+        </LinearLayout>
+    </ScrollView>
+
+
+<com.ismaeldivita.chipnavigation.ChipNavigationBar
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_gravity="bottom"
+    android:id="@+id/chip"
+    android:background="@color/white"
+    app:cnb_menuResource="@menu/bottom_menu" />
+</FrameLayout>

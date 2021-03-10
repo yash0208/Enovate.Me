@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/report"
+        android:title="Summary"
+        app:cnb_iconColor="@color/home"/>
+    <item
+        android:id="@+id/idea"
+        android:icon="@drawable/research"
+        android:title="Our Published"
+        app:cnb_iconColor="@color/activity"/>
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/lib"
+        android:title="Library"
+        app:cnb_iconColor="@color/favorites" />
+</menu>

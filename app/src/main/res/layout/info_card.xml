@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:orientation="horizontal" android:background="@drawable/info_back" android:layout_width="fill_parent" android:layout_height="180.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="15.0dip" android:textColor="@color/black" android:id="@+id/name1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="180.0dip" android:text="Climate Change" android:fontFamily="@font/open_sans_bold" />
+        <TextView android:textSize="15.0dip" android:textColor="@color/black" android:id="@+id/description1" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="60.0dip" android:layout_marginRight="180.0dip" android:text="Here Will Be Some Information About Infozine." android:fontFamily="@font/montserrat" />
+        <ImageView android:layout_gravity="center|right" android:id="@+id/image1" android:layout_width="150.0dip" android:layout_height="100.0dip" android:layout_marginTop="-15.0dip" android:layout_marginRight="20.0dip" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

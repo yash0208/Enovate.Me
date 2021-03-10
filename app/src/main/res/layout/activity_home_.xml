@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#F7F8FA"
+    android:layout_height="match_parent"
+    tools:context=".Home_Activity">
+
+    <com.shrikanthravi.customnavigationdrawer2.widget.SNavigationDrawer
+        android:id="@id/navigationDrawer"
+        android:layout_width="fill_parent"
+
+        app:navigationDrawerBackgroundColor="#FFFFFF"
+        app:appbarTitleTextColor="@android:color/white"
+        app:HamMenuIconTintColor="#080A26"
+        app:primaryMenuItemTextColor="#080A26"
+        app:secondaryMenuItemTextColor="#080A26"
+        app:appbarTitleTextSize="7sp"
+        app:primaryMenuItemTextSize="7sp"
+        app:secondaryMenuItemTextSize="7sp"
+        android:layout_height="fill_parent"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <FrameLayout
+            android:id="@id/frameLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <FrameLayout
+                android:id="@id/framaeLayout"
+                android:layout_width="fill_parent"
+                android:visibility="gone"
+                android:layout_height="52.0dip"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@id/profile_cat"
+                    android:layout_width="40.0dip"
+                    android:layout_height="40.0dip"
+                    android:layout_gravity="end|center"
+                    android:layout_marginEnd="30.0dip"
+                    android:src="@drawable/male_selected" />
+
+                <TextView
+                    android:id="@id/Tag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="20.0dip"
+                    android:fontFamily="@font/nunito_bold"
+                    android:text="Hey User,"
+                    android:textColor="#ff4b7392"
+                    android:textSize="25.0dip"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@id/imageView3"
+                    android:layout_width="25.0dip"
+                    android:layout_height="25.0dip"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="20.0dip"
+                    android:visibility="gone"
+                    app:srcCompat="@drawable/ic_baseline_menu_24" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@id/container_1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0.0dip"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+
+        </FrameLayout>
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-5683921349624168/5538769192">
+        </com.google.android.gms.ads.AdView>
+    </com.shrikanthravi.customnavigationdrawer2.widget.SNavigationDrawer>
+</androidx.constraintlayout.widget.ConstraintLayout>

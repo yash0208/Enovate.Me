@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Workshop_Details">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/web"
+                android:layout_width="fill_parent"
+                android:layout_height="250.0dip"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="30.0dip"
+                android:layout_height="30.0dip"
+                android:layout_gravity="end"
+                android:layout_marginTop="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:background="@drawable/ic_baseline_close_24" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginTop="20.0dip"
+                android:fontFamily="@font/montserrat"
+                android:text="Workshop Name"
+                android:textColor="#ff4b7392"
+                android:textSize="20.0dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/teacher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20.0dip"
+                android:fontFamily="@font/montserrat"
+                android:text="Workshop Name"
+                android:textColor="#ff4b7392"
+                android:textSize="15.0dip"
+                android:textStyle="bold" />
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30.0dip"
+                android:layout_marginTop="20.0dip"
+                android:layout_marginRight="30.0dip">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="@font/montserrat"
+                    android:text="What Will You Learn?"
+                    android:textColor="#ffff8383"
+                    android:textSize="20.0dip"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/des"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="35.0dip"
+                    android:fontFamily="@font/montserrat"
+                    android:paddingBottom="10.0dip"
+                    android:text="This Workshop Is About Smart Management Of Your Daily Routine" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="210.0dip"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginTop="20.0dip"
+                android:layout_marginRight="20.0dip"
+                android:layout_marginBottom="20.0dip"
+                android:background="@drawable/rectangle_1737"
+                android:paddingLeft="5.0dip"
+                android:paddingTop="20.0dip"
+                android:paddingRight="5.0dip">
+
+                <FrameLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20.0dip"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_marginLeft="10.0dip"
+                        android:drawableLeft="@drawable/symbol_130__1"
+                        android:drawablePadding="10.0dip"
+                        android:fontFamily="@font/montserrat"
+                        android:text="Total Duration"
+                        android:textColor="#ff4b7392"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/duration"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:paddingBottom="1dp"
+                        android:layout_marginLeft="40.0dip"
+                        android:layout_marginRight="10.0dip"
+                        android:fontFamily="@font/montserrat"
+                        android:text="5 Week Long"
+                        android:textColor="#ff8a56ac" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="fill_parent"
+
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="50.0dip"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_marginLeft="10.0dip"
+                        android:drawableLeft="@drawable/symbol_22__1"
+                        android:drawablePadding="10.0dip"
+                        android:fontFamily="@font/montserrat"
+                        android:text="Time"
+                        android:textColor="#ff4b7392"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginLeft="40.0dip"
+                        android:layout_marginRight="10.0dip"
+                        android:fontFamily="@font/montserrat"
+                        android:text="2-4 Hours Per Week"
+                        android:textColor="#ff8a56ac" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="80.0dip"
+                    android:fontFamily="@font/montserrat"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_marginLeft="10.0dip"
+                        android:drawableLeft="@drawable/symbol_204__1"
+                        android:drawablePadding="10.0dip"
+                        android:fontFamily="@font/montserrat"
+                        android:text="Course Language"
+                        android:textColor="#ff4b7392"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/language"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginLeft="40.0dip"
+                        android:layout_marginRight="10.0dip"
+                        android:fontFamily="@font/montserrat"
+                        android:text="English"
+                        android:textColor="#ff8a56ac" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="110.0dip"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_marginLeft="10.0dip"
+                        android:drawableLeft="@drawable/symbol_213__1"
+                        android:drawablePadding="10.0dip"
+                        android:fontFamily="@font/montserrat"
+                        android:text="Platform"
+                        android:textColor="#ff4b7392"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginLeft="40.0dip"
+                        android:layout_marginRight="10.0dip"
+                        android:fontFamily="@font/montserrat"
+                        android:text="Enovate Me"
+                        android:textColor="#ff8a56ac" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="140.0dip"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_marginLeft="10.0dip"
+                        android:drawableLeft="@drawable/symbol_172__2"
+                        android:drawablePadding="10.0dip"
+                        android:fontFamily="@font/montserrat"
+                        android:text="Subject"
+                        android:textColor="#ff4b7392"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@id/subject"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginLeft="40.0dip"
+                        android:layout_marginRight="10.0dip"
+                        android:fontFamily="@font/montserrat"
+                        android:text="Business"
+                        android:textColor="#ff8a56ac" />
+                </FrameLayout>
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Download This PDF To Review Whole Workshop"
+                    android:textColor="#ff707070"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/pdf"
+                    android:layout_width="200.0dip"
+                    android:layout_height="60.0dip"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10.0dip"
+                    android:background="@drawable/component_143__1"
+                    android:fontFamily="@font/montserrat"
+                    android:text="PDF"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <Button
+                android:layout_width="fill_parent"
+                android:id="@+id/pay"
+                android:layout_height="60.0dip"
+                android:background="@drawable/pay_button"
+                android:fontFamily="@font/montserrat"
+                android:text="Enroll Now"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

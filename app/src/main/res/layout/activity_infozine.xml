@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Infozine">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="match_parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.appbar.AppBarLayout
+                android:id="@+id/topbar"
+                android:layout_width="fill_parent"
+                android:layout_height="30.0dip"
+                android:background="#ffffffff"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:visibility="gone"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:liftOnScroll="false">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/bungee_shade"
+                    android:text="EN0VAT3 ME"
+                    android:textColor="@color/black" />
+            </com.google.android.material.appbar.AppBarLayout>
+
+            <FrameLayout
+                android:id="@+id/frameLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="72.0dip"
+                android:layout_marginLeft="-20.0dip"
+                android:layout_marginRight="-20.0dip"
+                android:background="@drawable/tittle"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/topbar">
+
+                <TextView
+                    android:id="@+id/name1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="-4.0dip"
+                    android:fontFamily="@font/nunito_bold"
+                    android:text="Infozine"
+                    android:textColor="@color/white"
+                    android:textSize="18.0dip"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/imageView3"
+                    android:layout_width="25.0dip"
+                    android:layout_height="25.0dip"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="30.0dip"
+                    android:layout_marginTop="-5.0dip"
+                    android:onClick="back"
+                    android:background="@drawable/ic_baseline_arrow_back_24a" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="70.0dip"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="10.0dip"
+                android:visibility="gone"
+                android:background="@drawable/rectangle_1793"
+                android:foregroundGravity="center"
+                android:orientation="horizontal"
+                app:itemTextColor="#ff515c6f"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView18">
+
+                <TextView
+                    android:id="@+id/feed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:fontFamily="@font/montserrat"
+
+                    android:layout_column="0"
+                    android:layout_gravity="start|center"
+                    android:layout_marginLeft="30.0dip"
+                    android:layout_marginTop="-5.0dip"
+                    android:text="Recent"
+                    android:textColor="#ffff6969"
+                    android:textSize="18.0dip"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/research"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:fontFamily="@font/montserrat"
+
+                    android:layout_column="1"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="-5.0dip"
+                    android:layout_marginRight="0.0dip"
+                    android:text="Issue"
+                    android:textColor="#ff515c6f"
+                    android:textSize="18.0dip"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/video"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat"
+
+                    android:layout_row="0"
+                    android:layout_column="2"
+                    android:layout_gravity="end|center"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_marginTop="-5.0dip"
+                    android:layout_marginRight="30.0dip"
+                    android:text="Infozines"
+                    android:textColor="#ff515c6f"
+                    android:textSize="18.0dip"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/frameLayout">
+
+                <ViewFlipper
+                    android:id="@id/viewFlipper"
+                    android:layout_width="fill_parent"
+                    android:layout_height="280.0dip"
+                    android:layout_margin="5dp"
+                    android:layout_marginBottom="60.0dip"
+                    android:autoStart="true"
+                    android:flipInterval="2000"
+                    android:padding="5dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/toolbar">
+
+                    <ImageView
+                        android:id="@+id/t11"
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="0.0dip"
+                        android:layout_marginTop="10.0dip"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/textView"
+                        app:layout_constraintTop_toBottomOf="@id/toolbar" />
+
+                    <ImageView
+                        android:id="@+id/t12"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="-10.0dip"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/textView"
+                        app:layout_constraintTop_toBottomOf="@id/toolbar" />
+
+                    <ImageView
+                        android:id="@+id/t13"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="-10.0dip"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/textView"
+                        app:layout_constraintTop_toBottomOf="@id/toolbar" />
+                </ViewFlipper>
+
+                <TextView
+                    android:id="@+id/tittle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_marginTop="-30dp"
+                    android:layout_marginRight="10.0dip"
+                    android:fontFamily="@font/montserrat"
+                    android:background="@drawable/g1936"
+                    android:gravity="center"
+                    android:paddingLeft="10.0dip"
+                    android:paddingRight="10.0dip"
+                    android:text="Get Infozine On Your Subject Of From Below"
+                    android:textColor="#ff2699fb"
+                    android:textSize="15.0dip" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/open_sans_bold"
+                    android:text="Monthy Infozines"
+                    android:textColor="#446884"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="20dp"/>
+            </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:id="@id/rec"
+                android:layout_marginBottom="50dp"
+                android:layoutAnimation="@anim/layout_animation_from_bottom"
+                android:layout_height="wrap_content">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+    </ScrollView>
+    <com.ismaeldivita.chipnavigation.ChipNavigationBar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:id="@+id/chip"
+        android:background="@color/white"
+        app:cnb_menuResource="@menu/info_menu" />
+</FrameLayout>

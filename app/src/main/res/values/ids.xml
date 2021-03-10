@@ -1,0 +1,1361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="contentView" type="id" />
+    <item name="ik" type="id" />
+    <item name="aa" type="id" />
+    <item name="tips" type="id" />
+    <item name="linearLayout" type="id" />
+    <item name="collaboration" type="id" />
+    <item name="linearLayout2" type="id" />
+    <item name="infozine" type="id" />
+    <item name="spirituality" type="id" />
+
+    <item name="framwork" type="id" />
+    <item name="layout1" type="id" />
+    <item name="layb" type="id" />
+    <item name="layba" type="id" />
+    <item name="thinkout" type="id" />
+    <item name="consultancy" type="id" />
+    <item name="laybacd" type="id" />
+    <item name="laybacde" type="id" />
+    <item name="hire" type="id" />
+    <item name="onlien_class" type="id" />
+    <item name="laybacdef" type="id" />
+    <item name="laybac" type="id" />
+    <item name="idea" type="id" />
+    <item name="social_media" type="id" />
+    <item name="navigationDrawer" type="id" />
+    <item name="frameLayout" type="id" />
+    <item name="framaeLayout" type="id" />
+    <item name="container_1" type="id" />
+    <item name="imageView3" type="id" />
+    <item name="Tag" type="id" />
+    <item name="container_layout" type="id" />
+    <item name="profile_cat" type="id" />
+    <item name="con_name" type="id" />
+    <item name="con_email" type="id" />
+    <item name="contact_con" type="id" />
+    <item name="col_add" type="id" />
+    <item name="pinb_con" type="id" />
+    <item name="dis" type="id" />
+    <item name="save_con" type="id" />
+    <item name="toolbar" type="id" />
+    <item name="Accept" type="id"/>
+
+    <item name="Ages" type="id"/>
+
+    <item name="Con_Pro" type="id"/>
+
+    <item name="Cover_Pic" type="id"/>
+
+    <item name="Decline" type="id"/>
+
+    <item name="Feed" type="id"/>
+
+    <item name="Hiring_add" type="id"/>
+
+    <item name="Home" type="id"/>
+
+    <item name="Image_show_consultancy" type="id"/>
+
+    <item name="More" type="id"/>
+
+    <item name="Name" type="id"/>
+
+    <item name="Names" type="id"/>
+
+    <item name="PROFILE_PIC" type="id"/>
+
+    <item name="Profile" type="id"/>
+
+    <item name="Profile_Type" type="id"/>
+
+    <item name="Quote" type="id"/>
+
+    <item name="Search" type="id"/>
+
+
+
+    <item name="Time_Commitment" type="id"/>
+
+    <item name="TotalDurationOfWorkshop" type="id"/>
+
+    <item name="Type" type="id"/>
+
+    <item name="Types" type="id"/>
+
+    <item name="Videos" type="id"/>
+
+
+
+    <item name="abc22" type="id"/>
+
+    <item name="about" type="id"/>
+
+    <item name="about_me" type="id"/>
+
+    <item name="accessibility_action_clickable_span" type="id"/>
+
+    <item name="accessibility_custom_action_0" type="id"/>
+
+    <item name="accessibility_custom_action_1" type="id"/>
+
+    <item name="accessibility_custom_action_10" type="id"/>
+
+    <item name="accessibility_custom_action_11" type="id"/>
+
+    <item name="accessibility_custom_action_12" type="id"/>
+
+    <item name="accessibility_custom_action_13" type="id"/>
+
+    <item name="accessibility_custom_action_14" type="id"/>
+
+    <item name="accessibility_custom_action_15" type="id"/>
+
+    <item name="accessibility_custom_action_16" type="id"/>
+
+    <item name="accessibility_custom_action_17" type="id"/>
+
+    <item name="accessibility_custom_action_18" type="id"/>
+
+    <item name="accessibility_custom_action_19" type="id"/>
+
+    <item name="accessibility_custom_action_2" type="id"/>
+
+    <item name="accessibility_custom_action_20" type="id"/>
+
+    <item name="accessibility_custom_action_21" type="id"/>
+
+    <item name="accessibility_custom_action_22" type="id"/>
+
+    <item name="accessibility_custom_action_23" type="id"/>
+
+    <item name="accessibility_custom_action_24" type="id"/>
+
+    <item name="accessibility_custom_action_25" type="id"/>
+
+    <item name="accessibility_custom_action_26" type="id"/>
+
+    <item name="accessibility_custom_action_27" type="id"/>
+
+    <item name="accessibility_custom_action_28" type="id"/>
+
+    <item name="accessibility_custom_action_29" type="id"/>
+
+    <item name="accessibility_custom_action_3" type="id"/>
+
+    <item name="accessibility_custom_action_30" type="id"/>
+
+    <item name="accessibility_custom_action_31" type="id"/>
+
+    <item name="accessibility_custom_action_4" type="id"/>
+
+    <item name="accessibility_custom_action_5" type="id"/>
+
+    <item name="accessibility_custom_action_6" type="id"/>
+
+    <item name="accessibility_custom_action_7" type="id"/>
+
+    <item name="accessibility_custom_action_8" type="id"/>
+
+    <item name="accessibility_custom_action_9" type="id"/>
+
+    <item name="action0" type="id"/>
+
+    <item name="action_bar" type="id"/>
+
+    <item name="action_bar_activity_content" type="id"/>
+
+    <item name="action_bar_container" type="id"/>
+
+    <item name="action_bar_root" type="id"/>
+
+    <item name="action_bar_spinner" type="id"/>
+
+    <item name="action_bar_subtitle" type="id"/>
+
+    <item name="action_bar_title" type="id"/>
+
+    <item name="action_container" type="id"/>
+
+    <item name="action_context_bar" type="id"/>
+
+    <item name="action_divider" type="id"/>
+
+    <item name="action_image" type="id"/>
+
+    <item name="action_menu_divider" type="id"/>
+
+    <item name="action_menu_presenter" type="id"/>
+
+    <item name="action_mode_bar" type="id"/>
+
+    <item name="action_mode_bar_stub" type="id"/>
+
+    <item name="action_mode_close_button" type="id"/>
+
+    <item name="action_text" type="id"/>
+
+    <item name="actions" type="id"/>
+
+    <item name="activity_chooser_view_content" type="id"/>
+
+    <item name="ad" type="id"/>
+
+    <item name="adView" type="id"/>
+
+    <item name="add21" type="id"/>
+
+    <item name="add_article" type="id"/>
+
+    <item name="add_photo" type="id"/>
+
+    <item name="add_pic" type="id"/>
+
+    <item name="ads" type="id"/>
+
+    <item name="age" type="id"/>
+
+    <item name="alertTitle" type="id"/>
+
+    <item name="anonymous_button" type="id"/>
+
+    <item name="appBarRL" type="id"/>
+
+    <item name="appBarTitleTV" type="id"/>
+
+    <item name="arrow" type="id"/>
+
+    <item name="artical" type="id"/>
+
+    <item name="articles" type="id"/>
+
+    <item name="as" type="id"/>
+
+    <item name="b_email" type="id"/>
+
+    <item name="back" type="id"/>
+
+    <item name="back2" type="id"/>
+
+    <item name="backgroundCV" type="id"/>
+
+    <item name="backgroundIV" type="id"/>
+
+    <item name="badd" type="id"/>
+
+    <item name="badge_container" type="id"/>
+
+    <item name="badge_text_view" type="id"/>
+
+    <item name="bio" type="id"/>
+
+    <item name="book" type="id"/>
+
+    <item name="bottom_menu" type="id"/>
+
+    <item name="browser_actions_header_text" type="id"/>
+
+    <item name="browser_actions_menu_item_icon" type="id"/>
+
+    <item name="browser_actions_menu_item_text" type="id"/>
+
+    <item name="browser_actions_menu_items" type="id"/>
+
+    <item name="browser_actions_menu_view" type="id"/>
+
+    <item name="btn_holder" type="id"/>
+
+    <item name="business_name" type="id"/>
+
+    <item name="button" type="id"/>
+
+    <item name="button1" type="id"/>
+
+    <item name="button10" type="id"/>
+
+    <item name="button11" type="id"/>
+
+    <item name="button12" type="id"/>
+
+    <item name="button2" type="id"/>
+
+    <item name="button3" type="id"/>
+
+    <item name="button4" type="id"/>
+
+    <item name="button5" type="id"/>
+
+    <item name="button6" type="id"/>
+
+    <item name="button7" type="id"/>
+
+    <item name="button8" type="id"/>
+
+    <item name="button9" type="id"/>
+
+    <item name="buttonPanel" type="id"/>
+
+    <item name="button_continue" type="id"/>
+
+    <item name="button_create" type="id"/>
+
+    <item name="button_done" type="id"/>
+
+    <item name="button_next" type="id"/>
+
+    <item name="button_resend_email" type="id"/>
+
+    <item name="button_sign_in" type="id"/>
+
+    <item name="ca" type="id"/>
+
+    <item name="cancel_action" type="id"/>
+
+    <item name="cancel_button" type="id"/>
+
+    <item name="cardView" type="id"/>
+
+    <item name="cat" type="id"/>
+
+    <item name="cat_show_consultancy" type="id"/>
+
+    <item name="change11" type="id"/>
+
+    <item name="chat" type="id"/>
+
+    <item name="chat_button" type="id"/>
+
+    <item name="chat_me" type="id"/>
+
+    <item name="checkbox" type="id"/>
+
+    <item name="checked" type="id"/>
+
+    <item name="chip" type="id"/>
+
+    <item name="chip_group" type="id"/>
+
+    <item name="chronometer" type="id"/>
+
+
+
+    <item name="colabration" type="id"/>
+
+
+
+    <item name="collaboration_Name" type="id"/>
+
+    <item name="collaboration_data" type="id"/>
+
+    <item name="collaboration_details" type="id"/>
+
+    <item name="collaboration_form" type="id"/>
+
+    <item name="collaboration_link" type="id"/>
+
+    <item name="collapsingToolbarLayout" type="id"/>
+
+    <item name="comment" type="id"/>
+
+    <item name="con" type="id"/>
+
+
+
+
+
+    <item name="con_pic_1" type="id"/>
+
+    <item name="confirm_button" type="id"/>
+
+    <item name="confirmation_code" type="id"/>
+
+    <item name="confirmation_code_layout" type="id"/>
+
+    <item name="connection" type="id"/>
+
+
+
+    <item name="contact" type="id"/>
+
+
+
+    <item name="container" type="id"/>
+
+    <item name="containerCV" type="id"/>
+
+    <item name="containerLL" type="id"/>
+
+
+    <item name="container_layoutj" type="id"/>
+
+    <item name="containere" type="id"/>
+
+    <item name="content" type="id"/>
+
+    <item name="contentPanel" type="id"/>
+
+
+
+    <item name="content_number" type="id"/>
+
+    <item name="content_time" type="id"/>
+
+    <item name="content_title" type="id"/>
+
+    <item name="controls_container" type="id"/>
+
+    <item name="coordinator" type="id"/>
+
+    <item name="country_code_text" type="id"/>
+
+    <item name="country_list" type="id"/>
+
+    <item name="cover" type="id"/>
+
+    <item name="cross_device_linking_body" type="id"/>
+
+    <item name="customPanel" type="id"/>
+
+    <item name="custom_action_left_button" type="id"/>
+
+    <item name="custom_action_right_button" type="id"/>
+
+    <item name="dar" type="id"/>
+
+    <item name="date" type="id"/>
+
+    <item name="date_final" type="id"/>
+
+    <item name="date_picker_actions" type="id"/>
+
+    <item name="datea" type="id"/>
+
+    <item name="dates2" type="id"/>
+
+    <item name="decor_content_parent" type="id"/>
+
+    <item name="default_activity_button" type="id"/>
+
+    <item name="delete" type="id"/>
+
+    <item name="delete_from_everyone" type="id"/>
+
+    <item name="des" type="id"/>
+
+    <item name="desas" type="id"/>
+
+    <item name="description" type="id"/>
+
+    <item name="design_bottom_sheet" type="id"/>
+
+    <item name="design_menu_item_action_area" type="id"/>
+
+    <item name="design_menu_item_action_area_stub" type="id"/>
+
+    <item name="design_menu_item_text" type="id"/>
+
+    <item name="design_navigation_view" type="id"/>
+
+    <item name="dialog_button" type="id"/>
+
+
+
+    <item name="discription_show_consultancy" type="id"/>
+
+    <item name="doadfne" type="id"/>
+
+    <item name="dob" type="id"/>
+
+    <item name="doc" type="id"/>
+
+    <item name="download" type="id"/>
+
+    <item name="drop_shadow_bottom" type="id"/>
+
+    <item name="drop_shadow_top" type="id"/>
+
+    <item name="duration" type="id"/>
+
+    <item name="earn" type="id"/>
+
+    <item name="editText" type="id"/>
+
+    <item name="editText2" type="id"/>
+
+    <item name="edit_phone_number" type="id"/>
+
+    <item name="edit_query" type="id"/>
+
+    <item name="email" type="id"/>
+
+    <item name="email_button" type="id"/>
+
+    <item name="email_footer_tos_and_pp_text" type="id"/>
+
+    <item name="email_layout" type="id"/>
+
+    <item name="email_show_consultancy" type="id"/>
+
+    <item name="email_top_layout" type="id"/>
+
+    <item name="email_tos_and_pp_text" type="id"/>
+
+    <item name="emailas" type="id"/>
+
+    <item name="end_padder" type="id"/>
+
+    <item name="expand_activities_button" type="id"/>
+
+    <item name="expanded_menu" type="id"/>
+
+    <item name="extra_views_container" type="id"/>
+
+    <item name="fab_label" type="id"/>
+
+    <item name="feed" type="id"/>
+
+    <item name="feed_rec" type="id"/>
+
+    <item name="fields" type="id"/>
+
+    <item name="filter_chip" type="id"/>
+
+    <item name="follow" type="id"/>
+
+    <item name="follower" type="id"/>
+
+    <item name="following" type="id"/>
+
+    <item name="form" type="id"/>
+
+    <item name="forward" type="id"/>
+
+    <item name="fragment_container" type="id"/>
+
+    <item name="fragment_container_view_tag" type="id"/>
+
+    <item name="fragment_phone" type="id"/>
+
+    <item name="fragment_register_email" type="id"/>
+
+
+
+    <item name="framback" type="id"/>
+
+
+    <item name="frameLayout2" type="id"/>
+
+    <item name="frameLayout3" type="id"/>
+
+    <item name="frameLayout4" type="id"/>
+
+    <item name="frameLayout5" type="id"/>
+
+    <item name="frameLayout6" type="id"/>
+
+    <item name="frameLayout7" type="id"/>
+
+    <item name="frameLayout8" type="id"/>
+
+
+
+    <item name="fullscreen_button" type="id"/>
+
+    <item name="gdfi" type="id"/>
+
+    <item name="gender" type="id"/>
+
+    <item name="generate_btn" type="id"/>
+
+    <item name="ghost_view" type="id"/>
+
+    <item name="ghost_view_holder" type="id"/>
+
+    <item name="glide_custom_view_target_tag" type="id"/>
+
+    <item name="grid" type="id"/>
+
+    <item name="group_divider" type="id"/>
+
+    <item name="guideline" type="id"/>
+
+    <item name="hamburger" type="id"/>
+
+    <item name="header" type="id"/>
+
+    <item name="header_text" type="id"/>
+
+    <item name="heading" type="id"/>
+
+    <item name="heading_label" type="id"/>
+
+
+
+    <item name="hiring_con" type="id"/>
+
+    <item name="hiring_name" type="id"/>
+
+    <item name="hiringemail" type="id"/>
+
+    <item name="home" type="id"/>
+
+    <item name="i1" type="id"/>
+
+    <item name="i111" type="id"/>
+
+    <item name="i112" type="id"/>
+
+    <item name="i113" type="id"/>
+
+    <item name="i123" type="id"/>
+
+    <item name="i2" type="id"/>
+
+    <item name="i3" type="id"/>
+
+    <item name="i4" type="id"/>
+
+    <item name="i5" type="id"/>
+
+    <item name="i6" type="id"/>
+
+    <item name="i7" type="id"/>
+
+    <item name="i8" type="id"/>
+
+    <item name="i9" type="id"/>
+
+    <item name="icon" type="id"/>
+
+    <item name="icon_group" type="id"/>
+
+    <item name="id" type="id"/>
+
+
+    <item name="idea1" type="id"/>
+
+
+
+    <item name="im1" type="id"/>
+
+    <item name="im2" type="id"/>
+
+    <item name="im3" type="id"/>
+
+    <item name="image" type="id"/>
+
+    <item name="image112" type="id"/>
+
+    <item name="imageButton" type="id"/>
+
+    <item name="imageButton2" type="id"/>
+
+    <item name="imageVie3" type="id"/>
+
+    <item name="imageView" type="id"/>
+
+    <item name="imageView10" type="id"/>
+
+    <item name="imageView11" type="id"/>
+
+    <item name="imageView12" type="id"/>
+
+    <item name="imageView13" type="id"/>
+
+    <item name="imageView14" type="id"/>
+
+    <item name="imageView15" type="id"/>
+
+    <item name="imageView16" type="id"/>
+
+    <item name="imageView17" type="id"/>
+
+    <item name="imageView18" type="id"/>
+
+    <item name="imageView19" type="id"/>
+
+    <item name="imageView20" type="id"/>
+
+    <item name="imageView21" type="id"/>
+
+    <item name="imageView22" type="id"/>
+
+    <item name="imageView23" type="id"/>
+
+
+
+    <item name="imageView4" type="id"/>
+
+    <item name="imageView5" type="id"/>
+
+    <item name="imageView6" type="id"/>
+
+    <item name="imageView7" type="id"/>
+
+    <item name="imageView8" type="id"/>
+
+    <item name="imageView9" type="id"/>
+
+    <item name="info" type="id"/>
+
+
+
+    <item name="interview" type="id"/>
+
+    <item name="invisible_frame" type="id"/>
+
+    <item name="item_touch_helper_previous_elevation" type="id"/>
+
+    <item name="iv_zoominpic" type="id"/>
+
+    <item name="jid" type="id"/>
+
+    <item name="join_us" type="id"/>
+
+    <item name="jsave" type="id"/>
+
+    <item name="language" type="id"/>
+
+    <item name="largeLabel" type="id"/>
+
+
+    <item name="line1" type="id"/>
+
+    <item name="line3" type="id"/>
+
+    <item name="linearLayout3" type="id"/>
+
+    <item name="linearLayout4" type="id"/>
+
+    <item name="linearLayout5" type="id"/>
+
+    <item name="list_item" type="id"/>
+
+    <item name="live_booking" type="id"/>
+
+    <item name="live_video_indicator" type="id"/>
+
+    <item name="lnk" type="id"/>
+
+    <item name="login_desc" type="id"/>
+
+    <item name="login_form_feedback" type="id"/>
+
+    <item name="login_progress_bar" type="id"/>
+
+    <item name="login_title" type="id"/>
+
+    <item name="logo" type="id"/>
+
+    <item name="lottie_layer_name" type="id"/>
+
+    <item name="main_content" type="id"/>
+
+    <item name="main_message_right" type="id"/>
+
+    <item name="main_tos_and_pp" type="id"/>
+
+    <item name="market_me" type="id"/>
+
+    <item name="masked" type="id"/>
+
+    <item name="media_actions" type="id"/>
+
+    <item name="mentor" type="id"/>
+
+    <item name="menuIV" type="id"/>
+
+    <item name="menuLL" type="id"/>
+
+    <item name="menuSV" type="id"/>
+
+    <item name="menu_button" type="id"/>
+
+    <item name="menu_root" type="id"/>
+
+    <item name="message" type="id"/>
+
+    <item name="message_view" type="id"/>
+
+    <item name="month_grid" type="id"/>
+
+    <item name="month_navigation_bar" type="id"/>
+
+    <item name="month_navigation_fragment_toggle" type="id"/>
+
+    <item name="month_navigation_next" type="id"/>
+
+    <item name="month_navigation_previous" type="id"/>
+
+    <item name="month_title" type="id"/>
+
+    <item name="more" type="id"/>
+
+    <item name="mtrl_calendar_day_selector_frame" type="id"/>
+
+    <item name="mtrl_calendar_days_of_week" type="id"/>
+
+    <item name="mtrl_calendar_frame" type="id"/>
+
+    <item name="mtrl_calendar_main_pane" type="id"/>
+
+    <item name="mtrl_calendar_months" type="id"/>
+
+    <item name="mtrl_calendar_selection_frame" type="id"/>
+
+    <item name="mtrl_calendar_text_input_frame" type="id"/>
+
+    <item name="mtrl_calendar_year_selector_frame" type="id"/>
+
+    <item name="mtrl_card_checked_layer_id" type="id"/>
+
+    <item name="mtrl_child_content_container" type="id"/>
+
+    <item name="mtrl_internal_children_alpha_tag" type="id"/>
+
+    <item name="mtrl_picker_fullscreen" type="id"/>
+
+    <item name="mtrl_picker_header" type="id"/>
+
+    <item name="mtrl_picker_header_selection_text" type="id"/>
+
+    <item name="mtrl_picker_header_title_and_selection" type="id"/>
+
+    <item name="mtrl_picker_header_toggle" type="id"/>
+
+    <item name="mtrl_picker_text_input_date" type="id"/>
+
+    <item name="mtrl_picker_text_input_range_end" type="id"/>
+
+    <item name="mtrl_picker_text_input_range_start" type="id"/>
+
+    <item name="mtrl_picker_title_text" type="id"/>
+
+    <item name="mv" type="id"/>
+
+    <item name="name" type="id"/>
+
+    <item name="name21" type="id"/>
+
+    <item name="name_c" type="id"/>
+
+    <item name="name_layout" type="id"/>
+
+    <item name="nameas" type="id"/>
+
+    <item name="namel" type="id"/>
+
+    <item name="nav_controller_view_tag" type="id"/>
+
+    <item name="nav_host_fragment_container" type="id"/>
+
+    <item name="nav_view" type="id"/>
+
+
+
+    <item name="navigation_header_container" type="id"/>
+
+    <item name="nextreg" type="id"/>
+
+    <item name="notification_background" type="id"/>
+
+    <item name="notification_main_column" type="id"/>
+
+    <item name="notification_main_column_container" type="id"/>
+
+    <item name="num" type="id"/>
+
+    <item name="off" type="id"/>
+
+    <item name="on" type="id"/>
+
+
+
+    <item name="op" type="id"/>
+
+    <item name="open12" type="id"/>
+
+    <item name="otp_desc" type="id"/>
+
+    <item name="otp_form_feedback" type="id"/>
+
+    <item name="otp_progress_bar" type="id"/>
+
+    <item name="otp_text_view" type="id"/>
+
+    <item name="otp_title" type="id"/>
+
+    <item name="overview" type="id"/>
+
+    <item name="p1" type="id"/>
+
+    <item name="p1234" type="id"/>
+
+    <item name="p2" type="id"/>
+
+    <item name="p2a" type="id"/>
+
+    <item name="p3" type="id"/>
+
+    <item name="p4" type="id"/>
+
+    <item name="p5" type="id"/>
+
+    <item name="panel" type="id"/>
+
+    <item name="parentPanel" type="id"/>
+
+    <item name="parent_matrix" type="id"/>
+
+    <item name="pas" type="id"/>
+
+    <item name="password" type="id"/>
+
+    <item name="password_layout" type="id"/>
+
+    <item name="pdf" type="id"/>
+
+    <item name="pdfView" type="id"/>
+
+    <item name="phone_button" type="id"/>
+
+    <item name="phone_layout" type="id"/>
+
+    <item name="phone_number" type="id"/>
+
+    <item name="phone_number_text" type="id"/>
+
+    <item name="pic" type="id"/>
+
+    <item name="pic1" type="id"/>
+
+    <item name="pic2" type="id"/>
+
+    <item name="pic3" type="id"/>
+
+    <item name="pic_submit" type="id"/>
+
+    <item name="picas" type="id"/>
+
+    <item name="pics" type="id"/>
+
+    <item name="pinb" type="id"/>
+
+
+
+    <item name="play_pause_button" type="id"/>
+
+    <item name="premium" type="id"/>
+
+    <item name="pro12" type="id"/>
+
+    <item name="pro_1" type="id"/>
+
+    <item name="profile" type="id"/>
+
+
+
+    <item name="profile_mail_sl" type="id"/>
+
+    <item name="profile_name_sl" type="id"/>
+
+    <item name="profile_pic" type="id"/>
+
+    <item name="profile_pic11" type="id"/>
+
+    <item name="profile_pic11a" type="id"/>
+
+    <item name="profile_pic_sl" type="id"/>
+
+    <item name="profilepic" type="id"/>
+
+    <item name="progress" type="id"/>
+
+    <item name="progressBar" type="id"/>
+
+    <item name="progress_circular" type="id"/>
+
+    <item name="progress_horizontal" type="id"/>
+
+    <item name="progress_txt" type="id"/>
+
+    <item name="progress_txt1" type="id"/>
+
+    <item name="purpose" type="id"/>
+
+    <item name="quates" type="id"/>
+
+    <item name="radio" type="id"/>
+
+    <item name="rateas" type="id"/>
+
+    <item name="rec" type="id"/>
+
+    <item name="rec_hir" type="id"/>
+
+    <item name="rec_req" type="id"/>
+
+    <item name="recycler_view" type="id"/>
+
+    <item name="req_img" type="id"/>
+
+    <item name="req_name" type="id"/>
+
+    <item name="req_quote" type="id"/>
+
+    <item name="research" type="id"/>
+
+    <item name="research_rec" type="id"/>
+
+    <item name="resend_barrier" type="id"/>
+
+    <item name="resend_code" type="id"/>
+
+    <item name="result_list" type="id"/>
+
+    <item name="right_icon" type="id"/>
+
+    <item name="right_side" type="id"/>
+
+    <item name="root" type="id"/>
+
+    <item name="rootLayout" type="id"/>
+
+    <item name="rootRL" type="id"/>
+
+    <item name="sample" type="id"/>
+
+    <item name="save" type="id"/>
+
+
+    <item name="save_non_transition_alpha" type="id"/>
+
+    <item name="save_overlay_view" type="id"/>
+
+    <item name="save_req" type="id"/>
+
+    <item name="scrollIndicatorDown" type="id"/>
+
+    <item name="scrollIndicatorUp" type="id"/>
+
+    <item name="scrollView" type="id"/>
+
+    <item name="scrollView2" type="id"/>
+
+    <item name="scrollView3" type="id"/>
+
+    <item name="scrollView4" type="id"/>
+
+    <item name="scrollView5" type="id"/>
+
+    <item name="search" type="id"/>
+
+    <item name="search_badge" type="id"/>
+
+    <item name="search_bar" type="id"/>
+
+    <item name="search_btn" type="id"/>
+
+    <item name="search_button" type="id"/>
+
+    <item name="search_close_btn" type="id"/>
+
+    <item name="search_edit_frame" type="id"/>
+
+    <item name="search_field" type="id"/>
+
+    <item name="search_go_btn" type="id"/>
+
+    <item name="search_mag_icon" type="id"/>
+
+    <item name="search_plate" type="id"/>
+
+    <item name="search_src_text" type="id"/>
+
+    <item name="search_voice_btn" type="id"/>
+
+    <item name="seen" type="id"/>
+
+    <item name="select_dialog_listview" type="id"/>
+
+    <item name="send" type="id"/>
+
+    <item name="send_code" type="id"/>
+
+    <item name="send_sms_tos" type="id"/>
+
+    <item name="service" type="id"/>
+
+    <item name="shop" type="id"/>
+
+    <item name="shortcut" type="id"/>
+
+    <item name="sign_in_email_sent_header_text" type="id"/>
+
+    <item name="sign_in_email_sent_text" type="id"/>
+
+    <item name="sign_out" type="id"/>
+
+    <item name="skill" type="id"/>
+
+    <item name="skillas" type="id"/>
+
+    <item name="skills" type="id"/>
+
+    <item name="slidable_content" type="id"/>
+
+    <item name="slidable_panel" type="id"/>
+
+    <item name="smallLabel" type="id"/>
+
+    <item name="snackbar_action" type="id"/>
+
+    <item name="snackbar_text" type="id"/>
+
+    <item name="sname" type="id"/>
+
+
+
+    <item name="space_icon" type="id"/>
+
+    <item name="space_text" type="id"/>
+
+    <item name="spacer" type="id"/>
+
+
+
+    <item name="split_action_bar" type="id"/>
+
+    <item name="status_bar_latest_event_content" type="id"/>
+
+    <item name="status_final" type="id"/>
+
+    <item name="stipsxs" type="id"/>
+
+    <item name="student" type="id"/>
+
+    <item name="stype" type="id"/>
+
+    <item name="subject" type="id"/>
+
+    <item name="submenuarrow" type="id"/>
+
+    <item name="submit_area" type="id"/>
+
+    <item name="sv" type="id"/>
+
+    <item name="t1" type="id"/>
+
+    <item name="t123" type="id"/>
+
+    <item name="t2" type="id"/>
+
+    <item name="t3" type="id"/>
+
+    <item name="tag_accessibility_actions" type="id"/>
+
+    <item name="tag_accessibility_clickable_spans" type="id"/>
+
+    <item name="tag_accessibility_heading" type="id"/>
+
+    <item name="tag_accessibility_pane_title" type="id"/>
+
+    <item name="tag_screen_reader_focusable" type="id"/>
+
+    <item name="tag_transition_group" type="id"/>
+
+    <item name="tag_unhandled_key_event_manager" type="id"/>
+
+    <item name="tag_unhandled_key_listeners" type="id"/>
+
+    <item name="teacher" type="id"/>
+
+    <item name="test_checkbox_android_button_tint" type="id"/>
+
+    <item name="test_checkbox_app_button_tint" type="id"/>
+
+    <item name="text" type="id"/>
+
+    <item name="text2" type="id"/>
+
+    <item name="textSpacerNoButtons" type="id"/>
+
+    <item name="textSpacerNoTitle" type="id"/>
+
+    <item name="textViesw7" type="id"/>
+
+    <item name="textView" type="id"/>
+
+    <item name="textView10" type="id"/>
+
+    <item name="textView11" type="id"/>
+
+    <item name="textView12" type="id"/>
+
+    <item name="textView13" type="id"/>
+
+    <item name="textView15" type="id"/>
+
+    <item name="textView16" type="id"/>
+
+    <item name="textView17" type="id"/>
+
+    <item name="textView18" type="id"/>
+
+    <item name="textView2" type="id"/>
+
+    <item name="textView3" type="id"/>
+
+    <item name="textView4" type="id"/>
+
+    <item name="textView4s" type="id"/>
+
+    <item name="textView5" type="id"/>
+
+    <item name="textView6" type="id"/>
+
+    <item name="textView7" type="id"/>
+
+    <item name="textView8" type="id"/>
+
+    <item name="textView9" type="id"/>
+
+    <item name="text_input_end_icon" type="id"/>
+
+    <item name="text_input_start_icon" type="id"/>
+
+    <item name="textinput_counter" type="id"/>
+
+    <item name="textinput_error" type="id"/>
+
+    <item name="textinput_helper_text" type="id"/>
+
+    <item name="theme" type="id"/>
+
+
+    <item name="ticker" type="id"/>
+
+    <item name="time" type="id"/>
+
+    <item name="time_fidnal" type="id"/>
+
+    <item name="time_final" type="id"/>
+
+    <item name="time_right" type="id"/>
+
+    <item name="timed_fidnal" type="id"/>
+
+    <item name="tintView" type="id"/>
+
+
+
+    <item name="tipsxs" type="id"/>
+
+    <item name="title" type="id"/>
+
+    <item name="titleDividerNoCustom" type="id"/>
+
+    <item name="titleTV" type="id"/>
+
+    <item name="titleTV1" type="id"/>
+
+    <item name="title_of_workshop" type="id"/>
+
+    <item name="title_template" type="id"/>
+
+    <item name="tittle" type="id"/>
+
+    <item name="toast_root" type="id"/>
+
+
+    <item name="topPanel" type="id"/>
+
+    <item name="top_level_view" type="id"/>
+
+    <item name="top_name" type="id"/>
+
+    <item name="top_progress_bar" type="id"/>
+
+    <item name="topbaar" type="id"/>
+
+    <item name="topbar" type="id"/>
+
+    <item name="touch_outside" type="id"/>
+
+    <item name="transition_current_scene" type="id"/>
+
+    <item name="transition_layout_save" type="id"/>
+
+    <item name="transition_position" type="id"/>
+
+    <item name="transition_scene_layoutid_cache" type="id"/>
+
+    <item name="transition_transform" type="id"/>
+
+    <item name="trouble_signing_in" type="id"/>
+
+    <item name="trouble_signing_in_possible_fixes" type="id"/>
+
+    <item name="u1234" type="id"/>
+
+    <item name="unchecked" type="id"/>
+
+    <item name="upp" type="id"/>
+
+    <item name="user_list" type="id"/>
+
+    <item name="username" type="id"/>
+
+    <item name="username_show_consultancy" type="id"/>
+
+    <item name="usernameshowmenu" type="id"/>
+
+    <item name="uun" type="id"/>
+
+    <item name="verify_btn" type="id"/>
+
+    <item name="vid" type="id"/>
+
+    <item name="video" type="id"/>
+
+    <item name="video_title" type="id"/>
+
+    <item name="videos_rec" type="id"/>
+
+    <item name="viewFlipper" type="id"/>
+
+    <item name="view_offset_helper" type="id"/>
+
+    <item name="vip" type="id"/>
+
+    <item name="vis" type="id"/>
+
+    <item name="visible" type="id"/>
+
+    <item name="visible_removing_fragment_view_tag" type="id"/>
+
+    <item name="w_link" type="id"/>
+
+    <item name="web" type="id"/>
+
+    <item name="welcome_back_email_link_body" type="id"/>
+
+    <item name="welcome_back_idp_button" type="id"/>
+
+    <item name="welcome_back_idp_prompt" type="id"/>
+
+    <item name="welcome_back_password_body" type="id"/>
+
+    <item name="work" type="id"/>
+
+    <item name="workshop" type="id"/>
+
+    <item name="youtube_button" type="id"/>
+
+    <item name="youtube_player_seekbar" type="id"/>
+    <item name="books" type="id" />
+    <item name="books1" type="id" />
+    <item name="think_outs" type="id" />
+    <item name="framework" type="id" />
+</resources>

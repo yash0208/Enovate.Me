@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Your_Idea">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <FrameLayout android:id="@+id/frameLayout" android:background="@drawable/tittle" android:layout_width="fill_parent" android:layout_height="62.0dip" android:layout_marginLeft="-20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="-20.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="-5.0dip"
+                    android:fontFamily="@font/nunito_bold"
+                    android:text="Your Idea"
+                    android:textColor="@color/white"
+                    android:textSize="18.0dip"
+                    android:textStyle="bold" />
+                <Button android:layout_gravity="center_vertical" android:onClick="back" android:id="@+id/imageView3" android:background="@drawable/ic_baseline_arrow_back_24a" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginTop="-5.0dip" android:layout_marginStart="30.0dip" />
+            </FrameLayout>
+            <FrameLayout android:id="@+id/frameLayout8" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_marginTop="10.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                <ImageView android:id="@+id/imageView23" android:layout_width="100.0dip" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" app:srcCompat="@drawable/idea_pic" />
+                <TextView android:textSize="15.0dip" android:textStyle="bold" android:textColor="#ff4b7392" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="115.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="5.0dip" android:text="Here you can post your ideas or ask questions to people and get connected with each other" android:fontFamily="@font/montserrat" />
+            </FrameLayout>
+
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rec"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toTopOf="@id/as"
+                android:layout_gravity="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:paddingBottom="50dp"
+                app:layout_constraintHorizontal_bias="0.0"
+                android:layout_marginTop="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/frameLayout8"
+                app:layout_constraintVertical_bias="0.0" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+    <FrameLayout android:id="@+id/as" android:background="#FFFFFF" android:layout_width="fill_parent" android:layout_height="50.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <ImageButton android:layout_gravity="center_vertical" android:id="@+id/add21" android:background="@drawable/add" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="10.0dip" android:src="@drawable/ic_baseline_add_circle_24aac" />
+
+        <ImageView
+            android:id="@+id/send"
+            android:layout_width="34dp"
+            android:layout_height="40.0dip"
+            android:layout_gravity="end|center"
+            android:layout_marginRight="10.0dip"
+            android:src="@drawable/ic_baseline_add_circle_24aac" />
+
+        <EditText android:textColor="@color/black" android:textColorHint="#d2272626" android:layout_gravity="start|center" android:id="@+id/data" android:background="@color/white" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="0.0dip" android:layout_marginRight="60.0dip" android:hint="Post Idea..." android:ems="10" android:fontFamily="@font/montserrat" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">En0vate_Me</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ob_header1">SIMPLE ABROAD CALLS</string>
+    <string name="ob_header2">FREE WONEP TO WONEP</string>
+    <string name="ob_header3">NO HIDDEN CHARGES OR FEES</string>
+
+    <string name="ob_get_started">GET STARTED</string>
+
+    <string name="ob_desc1">Wonep converts international calls to local calls without WiFi or data</string>
+    <string name="ob_desc2">If the person you’re calling also has Wonep the call will be entirely free</string>
+    <string name="ob_desc3">We have a very small charge for non-Wonep calls to mobiles or landlines</string>
+    <string name="first_slide_title">What Is "EN0VATE ME" ? </string>
+    <string name="second_slide_title">This Application Is For</string>
+    <string name="third_slide_title">Add Missing Place</string>
+    <string name="first">1/2</string>
+    <string name="second">2/2</string>
+    <string name="fourth_slide_title">Sit Back And Enjoy</string>
+    <string name="automatic_data">Automatic Data</string>
+    <string name="permission_title">Grant Access</string>
+    <string name="permission_detail">Give Music Player access to files</string>
+    <string name="choose_the_song">Choose the song</string>
+    <string name="edit_data">Edit Data</string>
+    <string name="result_awesome">Result is awesome!</string>
+    <string name="continue_and_learn">Continue and learn how to do</string>
+    <string name="continue_and_update">Continue and learn how to update</string>
+    <string name="continue_and_result">Continue and see the result</string>
+    <string name="thank_you">Thank you, have fun</string>
+    <string name="gm_finds_photos">GM Music Playlist automatically finds photos and genres of singers and albums and displays it.*   (*) Music information data should be in a proper format for this feature to work.</string>
+    <string name="swap_to_the_tab">Swap to the songs tab and touch the (⋮) sign which located at every songs right side , and choose Update Data</string>
+    <string name="update_easily">You can update Song/Singer Name, Album and Genre data easily</string>
+    <string name="after_updating">After updating data album cover, wiki information of artist and genre screens looks brilliant, don\'t forget to do this process for the other songs of you</string>
+    <string name="first_slide_desc">This is a network building platform
+for every sectors working in every state where
+every individual is connected and can learn many skills while
+creating their own professional as well as brand identification </string>
+    <string name="second_slide_desc">Engineers, Doctor, Architect, Designers,
+Chartered accountant, Businessman, Entrepreneurs, Intrapreneurs,
+Musicians, Artists, YouTubers, Speakers, Influencers, Human resources people
+and everyone who wants to start or scale yourself or your business</string>
+    <string name="third_slide_desc">If you have a shop or somethings and want to be a part of our growing industry then add your place by follwing simple steps.</string>
+    <string name="fourth_slide_desc">We will handle everything for you. As you have the app in your pocket then you dont have to worry about anything.</string>
+    <string name="skip_btn">Skip</string>
+    <string name="next_btn">Next</string>
+    <string name="let_get_started">Lets Get Started</string>
+    <string name="a1"></string>
+    <string name="invite">Send invitations!</string>
+    <string name="welcome">App Invite\nQuickstart</string>
+    <string name="referrer_hint">Deep link not provided</string>
+    <string name="deep_link_default">Deep link not set</string>
+    <string name="invitation_id_default">Invitation ID not set</string>
+    <string name="invite_friends">Invite Friends</string>
+
+    <string name="invitation_title">Send App Invite Quickstart Invitation</string>
+    <string name="invitation_message">This app is terrific, give it a try and get $5 off!</string>
+    <string name="invitation_deep_link">http://example.com/offer/five_dollar_offer</string>
+    <string name="invitation_custom_image">https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png</string>
+    <string name="invitation_cta">Install!</string>
+    <string name="invitation_subject">Try this great app!</string>
+
+    <string name="deep_link_fmt" formatted="false">Deep Link: %s</string>
+    <string name="invitation_id_fmt" formatted="false">Invitation ID: %s</string>
+
+    <string name="sent_invitations_fmt" formatted="false">Sent %d invitations</string>
+    <string name="send_failed">Sending invitations failed</string>
+    <string name="invite_dialog_title">You got an invitation!</string>
+
+    <string name="google_play_services_error">Google Play Services Error</string>
+    <string name="custom_invite">Custom Invite</string>
+</resources>
